@@ -1,0 +1,262 @@
+/*---------------SECTION 1: HERO----------------*/
+
+.hero-section {
+    background-image: url(/IMAGES/frontpage/hero-img.png);
+    height: 705px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.headline-h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0;
+    color: white;
+}
+
+.headline-h1 span {
+    color: #FF7600;
+    font-size: 28px;
+}
+
+.hero-text p {
+    font-weight: 400;
+    width: 25%;
+    color: white;
+}
+
+/*---------------SECTION 2: EVENTS----------------*/
+
+.events-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    gap: 40px;
+    margin: 0px auto;
+}
+
+.events {
+    text-decoration: none;
+}
+
+.event {
+    height: 340px;
+    width: 260px;
+    background-color: white;
+    text-align: center;
+}
+
+.event-image {
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dates {
+    color: #1E1E19;
+    border-radius: 5px;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    top: 15px;
+    left: 15px;
+    opacity: 80%;
+    position: absolute;
+}
+
+.dates span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.event-text {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-title {
+    font-size: 18px;
+    color: #19191E;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    margin: 4px;
+}
+
+.event-time {
+    color: #19191E;
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    margin: 4px;
+}
+
+/*---------------SECTION 3: EXPLORE----------------*/
+
+.explore-section {
+    height: auto;
+    background-color: #FDFCFC;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.explore-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.orange-black {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange-black span {
+    color: #FF7600;
+    font-weight: 600;
+}
+
+.explore-text {
+    padding-left: 5%;
+}
+
+.explore-text p {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore-text p span {
+    padding-top: 10px;
+}
+
+#learn-more-btn {
+    background-color: #FF7600;
+    color: #19191E;
+}
+
+/*---------------SECTION 4: GET INVOLVED----------------*/
+
+.get-involved-section {
+    background-color: #EDA943;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0%;
+}
+
+.get-involved-section .headline {
+    padding: 0;
+}
+
+.get-involved-section p {
+    width: 60%;
+    padding-left: 10%;
+    margin-top: 0;
+}
+
+/*---------------SECTION 5: ACTIVITIES----------------*/
+
+.activities-section {
+    background-color: #DBF1F9;
+    padding-bottom: 60px;
+}
+
+.activities-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.activity-desc {
+    background-color: #FDFCFC;
+    padding: 20px 0px;
+    padding-left: 5%;
+}
+
+.desc-headline {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.activity-desc p {
+    width: 90%;
+}
+
+/*---------------SECTION 6: CONTACT US----------------*/
+
+.contact-us {
+    background-color: #4695B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    border-radius: 6px;
+    border: none;
+    padding-left: 4%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+input {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 14px;
+}
+
+#send-btn {
+    background-color: #FF7600;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+

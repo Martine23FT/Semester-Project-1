@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/b515e79b0f.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/frontpage.css">
 
     <title>CSM | Home</title>
   </head>
@@ -21,14 +22,15 @@
 
 <!----------------------HEADER---------------------->
 <header>
-    <div class="logo-container">
-        <a href="index.html"><img src="/IMAGES/logo.png" alt="The Community Science Museum's logo with a blue planet on the left side"></a>
-    </div>
+    <a href="index.html" id="logo-container">
+        <p class="logo-text">COMMUNITY<span>Science Museum</span></p>
+        <img src="/IMAGES/Logo-planet.png" alt="A blue planet with a ring around it">
+    </a>
 
     <input type="checkbox" id="menu-checkbox">
     <label for="menu-checkbox" class="hamburger-icon" aria-label="hamburger menu"><i class="fas fa-bars"></i></label>
 
-    <nav class="header-nav">
+    <nav id="header-nav">
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="index.html">Explore</a>
         <a class="nav-link" href="index.html">Visit</a>
@@ -47,16 +49,15 @@
     </div>
 </section>
 
-<!----------------------HEADLINE---------------------->
-
-<div class="headline">
-<h2 class="headline-txt">EVENTS</h2>
-<a class="view-all" href="/HTML/events.html">view all</a>
-</div>
-
 <!----------------------EVENTS---------------------->
 
 <section class="events-section">
+
+<div class="headline">
+    <h2 class="headline-txt">EVENTS</h2>
+    <a class="view-all" href="/HTML/events.html">view all</a>
+</div>
+
 <div class="event">
     <a href="/HTML/events.html" class="events">
         <div class="event-image">
