@@ -298,14 +298,15 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     width: 100%;
-    margin: 4px;
+    margin: 0;
+    line-height: 1.5;
 }
 
 .event-time {
     color: #19191E;
     font-family: 'Oxygen', sans-serif;
     width: 100%;
-    margin: 4px;
+    margin: 0px;
 }
 
 /*----------------SECTION 6: GET-INVOLVED-SECTION----------------*/
