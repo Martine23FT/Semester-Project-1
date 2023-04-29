@@ -229,7 +229,7 @@
     width: 80%;
     gap: 40px;
     margin: 0px auto;
-    padding-bottom: 10%;
+    padding-bottom: 6%;
 }
 
 .events {
@@ -270,16 +270,21 @@
     height: 20%;
     border-radius: 5px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     top: 15px;
     left: 15px;
     opacity: 80%;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
 }
 
 .dates span {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
 }
 
