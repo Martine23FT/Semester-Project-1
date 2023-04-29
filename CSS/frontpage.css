@@ -307,3 +307,18 @@
     width: 100%;
     margin: 4px;
 }
+
+/*----------------SECTION 6: GET-INVOLVED-SECTION----------------*/
+
+.get-involved-section {
+    background-color: #FDFAF5;
+    padding: 4% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*----------------SECTION 7: EXPLORE----------------*/
+
