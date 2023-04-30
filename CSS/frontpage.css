@@ -334,6 +334,7 @@
         margin: 0;
     }
 
+
     .explore-section,
     .explore-section-2 {
         width: 100%;
@@ -342,6 +343,10 @@
 
     .explore-section p {
         width: 90%;
+    }
+
+    .circles {
+        width: 15%;
     }
 
     .list-3 {
@@ -358,6 +363,7 @@
         position: unset;
         height: 100%;
         width: 100%;
+        display: none;
     }
 
     .wrapper {
@@ -370,6 +376,11 @@
         width: 100%;
     }
 
+    .events-section {
+        width: 100%;
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
 }
 
 
