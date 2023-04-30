@@ -34,9 +34,13 @@ header {
 }
 
 #logo-container {
-    margin-left: 8%;
+    margin-left: 10%;
     text-decoration: none;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 #logo-container img {
@@ -60,7 +64,7 @@ header {
 }
 
 #header-nav {
-    padding-right: 4%;
+    padding-right: 5%;
     margin-top: 20px;
 }
 
@@ -148,21 +152,31 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3%;
 }
 
 #footer-wrapper {
     width: 80%;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
 }
 
 .footer-heading {
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 0;
 }
 
 footer p {
     line-height: 1.0;
+    font-size: 16px;
+}
+
+footer i {
+    padding: 15px;
+    font-size: 25px;
 }
 

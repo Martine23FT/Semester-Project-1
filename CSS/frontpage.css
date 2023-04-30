@@ -44,6 +44,10 @@
     padding-bottom: 40px;
 }
 
+.list-container {
+    background-color: white;
+}
+
 .list-3 img {
     width: 366px;
     height: 308px;
@@ -51,13 +55,14 @@
 }
 
 .desc {
-    height: 154px;
+    height: 160px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     text-align: center;
+    padding-top: 10px;
 }
 
 .container {
@@ -72,12 +77,17 @@
 
 /*----------------SECTION 3: ICON-SECTION----------------*/
 
-.icon-section {
-    background-color: #7DB3C7;
-    height: 176px;
+.icon-section,
+.circles,
+.circle {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon-section {
+    background-color: #7DB3C7;
+    height: 176px;
 }
 
 #circle-container {
@@ -87,10 +97,7 @@
 }
 
 .circles {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
     width: 25%;
 }
 
@@ -99,9 +106,6 @@
     height: 65px;
     background-color: #DBF1F9;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .circle i {
@@ -291,4 +295,8 @@
     align-items: center;
     margin: 0 auto;
     padding-bottom: 50px;
+}
+
+.explore-section-2 .desc {
+    height: 140px;
 }
