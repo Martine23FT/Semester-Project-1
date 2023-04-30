@@ -81,6 +81,41 @@ header {
   display: none;
 }
 
+/*----------------HEADER: MEDIA QUIERIES----------------*/
+
+@media only screen and (min-width: 0px) and (max-width: 1180px) {
+    .hamburger-icon {
+        display: block;
+        color: white;
+        padding-right: 10%;
+    }
+
+    #menu-checkbox:checked ~ #header-nav {
+        display: block;
+    }
+
+    #header-nav {
+        display: none;
+        top: 133px;
+        width: 100%;
+        text-align: center;
+        background-color: #16243E;
+    }
+
+    header {
+        position: relative;
+    }
+
+    #header-nav {
+        position: absolute;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 15px;
+    }
+}
+
 /*----------------BUTTON----------------*/
 
 .primary-btn {
@@ -180,3 +215,40 @@ footer i {
     font-size: 25px;
 }
 
+/*----------------FOOTER - MEDIA QUIRERIES: MOBILE----------------*/
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #footer-wrapper {
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px 0px;
+    }
+
+    footer i {
+        padding-left: 0px;
+    }
+
+    #col-1 {
+        order: 4;
+    }
+
+    #col-2 {
+        order: 1;
+    }
+
+    #col-3 {
+        order: 2;
+    }
+
+    #col-4 {
+        order: 3;
+    }
+
+    .col img {
+        display: none;
+    }
+}
+
+/*----------------FOOTER - MEDIA QUIRERIES: IPAD----------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {}

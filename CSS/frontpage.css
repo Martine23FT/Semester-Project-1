@@ -300,3 +300,63 @@
 .explore-section-2 .desc {
     height: 140px;
 }
+
+/*----------------MEDIA QUIERIES: MOBILE----------------*/
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .hero-section {
+        background-image: url(/IMAGES/frontpage/hero-mob.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+
+    .hero-text {
+        padding-top: 15%;
+    }
+
+    .hero-text p {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .headline-style-1 {
+        font-size: 34px;
+    }
+
+    .headline-style-1 span {
+        font-size: 24px;
+    }
+
+    .headline-style-2 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .explore-section p {
+        width: 100%;
+    }
+
+    .list-3 {
+        overflow: scroll;
+        scroll-behavior: smooth;
+        display: flex;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    #absolute,
+    #relative {
+        position: unset;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+/*----------------MEDIA QUIERIES: IPAD----------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+}
