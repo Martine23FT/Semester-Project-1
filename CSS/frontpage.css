@@ -334,8 +334,14 @@
         margin: 0;
     }
 
-    .explore-section p {
+    .explore-section,
+    .explore-section-2 {
         width: 100%;
+        padding: 0;
+    }
+
+    .explore-section p {
+        width: 90%;
     }
 
     .list-3 {
@@ -344,12 +350,23 @@
         display: flex;
         gap: 10px;
         padding-bottom: 20px;
+        width: 100%;
     }
 
     #absolute,
     #relative {
         position: unset;
         height: 100%;
+        width: 100%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-1 {
         width: 100%;
     }
 
