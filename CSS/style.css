@@ -174,9 +174,25 @@ header {
     font-weight: 700;
 }
 
-.headline-style-3 {
-    font-size: 32px;
-    text-align: center;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .headline-style-3 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .headline-style-1 {
+        font-size: 34px;
+    }
+
+    .headline-style-1 span {
+        font-size: 24px;
+    }
+
+    .headline-style-2 {
+        font-size: 24px;
+        margin: 0;
+    }
 }
 
 /*----------------FOOTER----------------*/
