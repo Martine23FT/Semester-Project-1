@@ -1,0 +1,37 @@
+body {
+    background-image: url(/IMAGES/explore/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-explore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    display: flex;
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container {
+    width: 40%;
+    padding-right: 10%;
+}
+
+.text-container .headline-style-3 {
+    text-align: left;
+}
+
+.text-container span {
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
