@@ -1,0 +1,124 @@
+body {
+    background-color: #FDFAF5;
+}
+
+#museum-hero {
+    background-image: url(/IMAGES/visit/heropicture.png);
+    height: 450px;
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*----------------SECTION 2: VISIT US----------------*/
+
+.visit-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-part {
+    text-align: center;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.info-grid {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    gap: 30px;
+}
+
+.info-grid i {
+    font-size: 35px;
+    padding-right: 40px;
+}
+
+#map {
+    color: #FBA729;
+}
+
+#ticket {
+    color: #B743ED;
+}
+
+#wheelchair {
+    color: #51FF96;
+}
+
+#utensils {
+    color: #679285;
+}
+
+#clock {
+    color: #D73030;
+}
+
+#shopping {
+    color: #1569E7;
+}
+
+.container {
+    display: flex;
+}
+
+.visit-text span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.visit-text p {
+    line-height: 1.8;
+    margin: 0;
+}
+
+/*----------------MEDIA QUIERIES: MOBILE----------------*/
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .visit-section {
+        width: 100%;
+    }
+
+    .upper-part {
+        width: 80%;
+    }
+
+    .info-grid {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .info-grid i {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+    .visit-section {
+        width: 100%;
+    }
+
+    .upper-part {
+        width: 80%;
+    }
+
+    .info-grid {
+        width: 80%;
+        padding-top: 50px;
+    }
+
+    .info-grid i {
+        font-size: 28px;
+    }
+}
