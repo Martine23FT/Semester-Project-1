@@ -1,0 +1,85 @@
+body {
+    background-color: #7DB3C7;
+}
+
+/*-------------SECTION 1: AERONAUTICS-SECTION---------------*/
+
+.aeronautics-section {
+    background-image: url(/IMAGES/events/events-hero.png);
+    height: 630px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.dates {
+    color: #1E1E19;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    top: 210px;
+    height: 50px;
+    width: 50px;
+}
+
+.dates span {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.aeronautics-section p {
+    color: white;
+    width: 30%;
+}
+
+/*-------------SECTION 2: SPECIAL-EVENTS---------------*/
+
+.special-events .headline-style-2 {
+    padding-left: 10%;
+}
+
+.list-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.special-events {
+    padding-bottom: 80px;
+}
+
+.special-event {
+    background-color: white;
+    width: 552px;
+    height: 476px;
+}
+
+.description {
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.description p {
+    margin: 0;
+}
+
+
