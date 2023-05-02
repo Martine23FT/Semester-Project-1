@@ -19,7 +19,7 @@ body {
 
 p {
     font-family: 'Oxygen', sans-serif;
-    font-size: 18px;
+    font-size: 1.125em; /*I changed to REM-EM*/
     line-height: 1.5;
 }
 
@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #16243E;
-    height: 154px;
+    height: 8em;
 }
 
 #logo-container {
@@ -40,17 +40,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1em;
 }
 
 #logo-container img {
-    width: 50px;
-    height: 40px;
+    width: 3.5em;
+    height: 2.5em;
     display: block;
 }
 
 #logo-container p {
-    font-size: 26px;
+    font-size: 1.5em;
     font-weight: 600;
     font-family: 'Quicksand', sans-serif;
     display: flex;
@@ -59,21 +59,23 @@ header {
 }
 
 #logo-container span {
-    font-size: 22px;
+    font-size: 1em;
     font-weight: 400;
 }
 
 #header-nav {
     padding-right: 6%;
-    margin-top: 20px;
+    display: flex;
+    gap: 5em;
+    padding-right: 10%;
 }
 
 .nav-link {
     text-decoration: none;
-    padding-right: 70px;
     font-family: 'Quicksand', sans-serif;
     color: white;
-    font-size: 18px;
+    font-size: 1.2em;
+    margin-top: 28px;
 }
 
 #menu-checkbox,
@@ -96,7 +98,7 @@ header {
 
     #header-nav {
         display: none;
-        top: 133px;
+        top: 8em;
         width: 100%;
         text-align: center;
         background-color: #16243E;
@@ -112,23 +114,23 @@ header {
 
     .nav-link {
         display: block;
-        padding: 15px;
+        padding: 1em;
     }
 
     #logo-container p {
-        font-size: 24px;
+        font-size: 1.5em;
         line-height: 1.2;
     }
 
     #logo-container span {
-        font-size: 18px;
+        font-size: .8em;
     }
 }
 
 /*----------------BUTTON----------------*/
 
 .primary-btn {
-    width: 130px;
+    width: 8rem;
     height: 40px;
     display: flex;
     align-items: center;
@@ -139,6 +141,9 @@ header {
     color: #16243E;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -157,8 +162,13 @@ header {
     flex-direction: column;
 }
 
+.headline-style-3 {
+    font-size: 2em;
+    text-align: center;
+}
+
 .headline-style-1 {
-    font-size: 48px;
+    font-size: 3rem;
     color: white;
     width: 25%;
 }
@@ -167,7 +177,7 @@ header {
 .headline-style-2,
 .headline-style-3 span {
     font-family: 'Quicksand', sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 
@@ -186,25 +196,25 @@ header {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
 
     .headline-style-3 {
-        font-size: 32px;
+        font-size: 2rem;
         text-align: center;
     }
 
     .headline-style-1 {
-        font-size: 34px;
+        font-size: 2.125rem;
     }
 
     .headline-style-1 span {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .headline-style-2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         margin: 0;
     }
 
     p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
@@ -236,12 +246,13 @@ footer {
 
 footer p {
     line-height: 1.0;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 footer i {
-    padding: 15px;
-    font-size: 25px;
+    padding: 1em;
+    padding-left: 0;
+    font-size: 1.6rem;
 }
 
 /*----------------MEDIA QUIRERIES: MOBILE----------------*/
@@ -249,8 +260,8 @@ footer i {
 @media only screen and (min-width: 0px) and (max-width: 1180px) {
     #footer-wrapper {
         flex-direction: column;
-        gap: 25px;
-        padding: 25px 0px;
+        gap: 1.6em;
+        padding: 1.6em 0em;
     }
 
     footer i {
@@ -287,11 +298,15 @@ footer i {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0px;
+    padding: 30px 0px; /* Change to REM-EM */
+}
+
+.contact-section .primary-btn {
+    margin: 0 auto;
 }
 
 .contact-section .headline-style-2 {
-    margin: 15px;
+    margin: 15px; /* Change to REM-EM */
 }
 
 .contact-forms {
@@ -302,22 +317,22 @@ footer i {
 input,
 textarea {
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
-    margin: 5px 0px;
+    font-size: 16px; /* Change to REM-EM */
+    margin: 5px 0px; /* Change to REM-EM */
     width: 100%;
-    padding-left: 10px;
-    border-radius: 6px;
+    padding-left: 10px; /* Change to REM-EM */
+    border-radius: 6px; /* Change to REM-EM */
     border: none;
 }
 
 input {
-    height: 40px;
-    margin: 5px 0px;
+    height: 40px; /* Change to REM-EM */
+    margin: 5px 0px; /* Change to REM-EM */
 }
 
 textarea {
-    height: 200px;
-    padding-top: 10px;
+    height: 200px; /* Change to REM-EM */
+    padding-top: 10px; /* Change to REM-EM */
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
