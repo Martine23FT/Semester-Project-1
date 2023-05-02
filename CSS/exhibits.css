@@ -1,20 +1,76 @@
-/*------------TOP TEXT-------------*/
+/*---------HEADLINE TYPEWRITER EFFECT----------*/
 
-.top-text {
+.text-wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 60%;
+    justify-content: center;
+}
+
+.text-wrapper .static-txt {
+    font-size: 36px;
+    color: #16243E;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text-wrapper .dynamic-txt {
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    font-family: 'Caveat', sans-serif;
+}
+
+.dynamic-txt {
+    padding-left: 30px;
+}
+
+.dynamic-txt li {
+    position: relative;
+    top: 0;
+    font-size: 42px;
+    color: #4695B2;
+    list-style: none;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txt li span {
+    position: relative;
+}
+
+.dynamic-txt li span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 50px;
+    background: #DBF1F9;
+    border-left: 2px solid #16243E;
+    animation: typing 1.5s steps(9) infinite alternate;
+}
+
+@keyframes typing {
+    100% {
+       left: 100%; 
+       margin: 0 -35px 0 35px;
+    }
+}
+
+/*---------TEXT----------*/
+
+.text {
+    width: 50%;
     margin: 0 auto;
-}
-
-.top-text .headline-style-2 {
-    padding-top: 4%;
-}
-
-.top-text p { 
     text-align: center;
+}
+
+.text p {
+    margin: 0;
 }
 
 /*------------EXHIBITS-------------*/
