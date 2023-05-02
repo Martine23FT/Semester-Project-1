@@ -67,8 +67,7 @@ header {
 #header-nav {
     padding-right: 6%;
     display: flex;
-    gap: 5em;
-    padding-right: 10%;
+    gap: 25px;
 }
 
 .nav-link {
@@ -77,6 +76,13 @@ header {
     color: white;
     font-size: 1.2em;
     margin-top: 28px;
+    padding: 12px 25px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    background-color: hsl(205, 50%, 47%);
+    border-radius: 50px;
 }
 
 #menu-checkbox,
