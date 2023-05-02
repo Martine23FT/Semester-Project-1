@@ -136,7 +136,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FBA729;
+    background-image: linear-gradient(to left, #FBA729, #EE5A24, #FBA729);
+    background-size: 200%;
     border-radius: 30px;
     text-decoration: none;
     color: #16243E;
@@ -146,11 +147,12 @@ header {
     font-size: 16px;
     cursor: pointer;
     transition: .3s;
+    overflow: hidden;
 }
 
 .primary-btn:hover {
     transform: scale(1.1);
-    background-color: white;
+    background-position: right;
 }
 
 /*----------------HEADLINES----------------*/
