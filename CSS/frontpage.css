@@ -2,7 +2,8 @@
 
 .hero-section {
     background-image: url(/IMAGES/frontpage/hero-img.png);
-    height: 705px; /*When changing this to 40rem, the "lets start exploring" jumps up, need fixing*/
+    height: 74vh;
+    width: 100%;
     display: flex;
 }
 
@@ -26,13 +27,13 @@
     justify-content: center;
     align-items: center;
     padding: 0% 10%;
-    padding-bottom: 80px; /*Change to REM-EM*/
+    padding-bottom: 80px; 
 }
 
 .explore-section p {
     width: 75%;
     text-align: center;
-    padding-bottom: 30px; /*Change to REM-EM*/
+    padding-bottom: 30px; 
 }
 
 .list-3 {
@@ -53,7 +54,7 @@
 
 .list-3 img {
     width: 100%;
-    height: 308px; /*Change to REM-EM*/
+    height: 308px;
     object-fit: cover;
 }
 
@@ -65,7 +66,7 @@
     justify-content: top;
     align-items: center;
     text-align: center;
-    padding-top: 10px; /*Change to REM-EM*/
+    padding-top: 10px; 
 }
 
 .container {
@@ -90,13 +91,13 @@
 
 .icon-section {
     background-color: #7DB3C7;
-    height: 176px; /*Change to REM-EM*/
+    height: 176px; 
 }
 
 #circle-container {
     width: 50%;
     display: flex;
-    gap: 80px; /*Change to REM-EM*/
+    gap: 80px;
 }
 
 .circles {
@@ -105,14 +106,14 @@
 }
 
 .circle {
-    width: 65px; /*Change to REM-EM*/
-    height: 65px; /*Change to REM-EM*/
+    width: 65px; 
+    height: 65px; 
     background-color: #DBF1F9;
     border-radius: 50%;
 }
 
 .circle i {
-    font-size: 28px; /*Change to REM-EM*/
+    font-size: 28px; 
 }
 
 /*----------------SECTION 4: VR-SECTION----------------*/
@@ -120,7 +121,7 @@
 .vr-section {
     background-color: #FDFAF5;
     display: flex;
-    height: 618px; /*Change to REM-EM*/
+    height: 618px; 
 }
 
 .wrapper {
@@ -150,18 +151,18 @@
 
 #absolute {
     position: absolute;
-    width: 340px; /*Change to REM-EM*/
-    height: 350px; /*Change to REM-EM*/
-    right: 893px; /*Change to REM-EM*/
-    top: 2026px; /*Change to REM-EM*/
+    width: 340px; 
+    height: 350px; 
+    right: 893px; 
+    top: 2026px; 
 }
 
 #relative {
     position: relative;
-    width: 340px; /*Change to REM-EM*/
-    height: 350px; /*Change to REM-EM*/
-    left: 313px; /*Change to REM-EM*/
-    top: -62px; /*Change to REM-EM*/
+    width: 340px; 
+    height: 350px;
+    left: 313px; 
+    top: -62px; 
 }
 
 /*----------------SECTION 5: EVENTS-SECTION----------------*/
@@ -303,11 +304,11 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding-bottom: 50px; /*Change to REM-EM*/
+    padding-bottom: 50px; 
 }
 
 .explore-section-2 .desc {
-    height: 140px; /*Change to REM-EM*/
+    height: 140px; 
 }
 
 /*----------------MEDIA QUIERIES: MOBILE----------------*/
@@ -318,7 +319,7 @@
         background-image: url(/IMAGES/frontpage/hero-mob.png);
         background-repeat: no-repeat;
         background-size: contain;
-        height: 600px; /*Change to REM-EM*/
+        height: 600px; 
     }
 
     .hero-text {
@@ -327,7 +328,7 @@
 
     .hero-text p {
         width: 100%;
-        font-size: 16px; /*Change to REM-EM*/
+        font-size: 16px; 
     }
     
 
@@ -337,8 +338,8 @@
         padding: 0;
     }
 
-    .explore-section p {
-        width: 90%;
+    .container-1 p{
+        width: 100%;
     }
 
     .circles {
@@ -349,11 +350,15 @@
         overflow: scroll;
         scroll-behavior: smooth;
         display: flex;
-        gap: 10px; /*Change to REM-EM*/
-        padding-bottom: 20px; /*Change to REM-EM*/
-        width: 100% !important;
+        gap: 0.5em; 
+        width: 98% !important;
         justify-content: flex-start;
-        padding: 0 1em;
+        padding-bottom: 1em;
+    }
+
+    .explore-section .primary-btn {
+        margin-top: 15px;
+        margin-bottom: 40px;
     }
 
     .list-3 img {
@@ -362,6 +367,22 @@
 
     .list-container {
         width: auto;
+    }
+
+    .icon-section {
+        height: 200px;
+    }
+
+    #circle-container {
+        width: 90%;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .circles {
+        padding: 0% 12%;
     }
 
     #absolute,
@@ -386,6 +407,21 @@
         width: 100%;
         overflow: scroll;
         scroll-behavior: smooth;
+        padding: 15% 4%;
+    }
+
+    .events-section .headline {
+        width: 90%;
+        padding: 0;
+    }
+
+    .events-container {
+        gap: 10px;
+        padding: 0;
+    }
+
+    .get-involved-section {
+        padding: 15% 10%;
     }
 }
 
