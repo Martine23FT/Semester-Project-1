@@ -8,6 +8,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 90px;
+    padding: 4%;
 }
 
 .text-wrapper .static-txt {
@@ -59,7 +61,7 @@ body {
 
 @keyframes slide {
     100% {
-        top: -430px;
+        top: -450px;
     }
 }
 
