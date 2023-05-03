@@ -101,6 +101,7 @@ header {
 
     #menu-checkbox:checked ~ #header-nav {
         display: block;
+        z-index: 999;
     }
 
     #header-nav {
