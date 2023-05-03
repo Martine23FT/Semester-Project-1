@@ -179,7 +179,7 @@
     color: #19191E;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: 18px; /*Change to REM-EM*/
+    font-size: 18px;
 }
 
 .events-section {
@@ -189,7 +189,8 @@
     flex-direction: column;
     height: auto;
     width: 80%;
-    gap: 40px; /*Change to REM-EM*/
+    gap: 4em;
+    padding: 1em;
     margin: 0 auto;
     padding-bottom: 6%;
 }
@@ -199,21 +200,27 @@
 }
 
 .event {
-    height: 340px; /*Change to REM-EM*/
-    width: 260px; /*Change to REM-EM*/
+    height:20em; 
+    width: 15em;
     background-color: white;
     text-align: center;
+    margin-left: 0;
 }
 
 .events-container {
     display: flex;
     flex-direction: row;
-    gap: 40px; /*Change to REM-EM*/
+    gap:2.5em;
+    margin: 0;
+    list-style:none; 
+    padding: 1em;
+    max-width: 100%;
+    overflow: auto;
 }
 
 .event-image {
     height: 75%;
-    width: 100%;
+    width: 15em;
     object-fit: cover;
     position: relative;
 }
@@ -226,16 +233,15 @@
 
 .dates {
     color: #1E1E19;
-    border-radius: 5px; /*Change to REM-EM*/
+    border-radius: 5px;
     background-color: white;
     width: 20%;
     height: 20%;
-    border-radius: 5px; /*Change to REM-EM*/
     text-align: center;
-    font-size: 16px; /*Change to REM-EM*/
+    font-size: 16px;
     font-family: 'Quicksand', sans-serif;
-    top: 15px; /*Change to REM-EM*/
-    left: 15px; /*Change to REM-EM*/
+    top: 1em;
+    left: 1em;
     opacity: 80%;
     position: absolute;
     display: flex;
@@ -247,7 +253,7 @@
 
 .dates span {
     font-weight: 700;
-    font-size: 16px; /*Change to REM-EM*/
+    font-size: 16px;
 }
 
 .event-text {
