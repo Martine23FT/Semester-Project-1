@@ -12,6 +12,7 @@ body {
 
 .text-wrapper .static-txt {
     font-size: 36px;
+    font-weight: 500;
     color: #16243E;
     font-family: 'Quicksand', sans-serif;
 }
