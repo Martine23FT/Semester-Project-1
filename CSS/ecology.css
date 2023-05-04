@@ -1,0 +1,40 @@
+body {
+    background-color: #DBF1F9;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 1440px;
+}
+
+.hero {
+    height: 80vh;
+    background: url(/IMAGES/ecology.png) center no-repeat fixed;
+    background-size: 60%;
+    position: relative;
+  }
+
+.parallax-1 {
+    height: 30vh;
+    width: 100%;
+    background-color: #DBF1F9;
+    position: relative;
+    top: 80vh;
+  }
+
+.section-world {
+    height: 40vh;
+    background: url(/IMAGES/earth.png) center no-repeat fixed;
+    background-size: 60%;
+    position: relative;
+    top: 80vh;
+}
+
+.parallax-2 {
+    height: 40vh;
+    width: 100%;
+    background-color: #DBF1F9;
+    position: relative;
+    top: 80vh;
+  }
