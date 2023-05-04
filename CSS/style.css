@@ -20,7 +20,7 @@ body {
 
 p {
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.125em; /*I changed to REM-EM*/
+    font-size: 1.125em;
     line-height: 1.5;
 }
 
@@ -309,7 +309,7 @@ footer i {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0px; /* Change to REM-EM */
+    padding: 30px 0px; 
 }
 
 .contact-section .primary-btn {
@@ -317,7 +317,7 @@ footer i {
 }
 
 .contact-section .headline-style-2 {
-    margin: 15px; /* Change to REM-EM */
+    margin: 15px; 
 }
 
 .contact-forms {
@@ -328,22 +328,22 @@ footer i {
 input,
 textarea {
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px; /* Change to REM-EM */
-    margin: 5px 0px; /* Change to REM-EM */
+    font-size: 16px;
+    margin: 5px 0px; 
     width: 100%;
-    padding-left: 10px; /* Change to REM-EM */
-    border-radius: 6px; /* Change to REM-EM */
+    padding-left: 10px; 
+    border-radius: 6px; 
     border: none;
 }
 
 input {
-    height: 40px; /* Change to REM-EM */
-    margin: 5px 0px; /* Change to REM-EM */
+    height: 40px; 
+    margin: 5px 0px; 
 }
 
 textarea {
-    height: 200px; /* Change to REM-EM */
-    padding-top: 10px; /* Change to REM-EM */
+    height: 200px; 
+    padding-top: 10px; 
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
