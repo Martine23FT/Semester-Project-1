@@ -129,7 +129,8 @@
 .wrapper {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    position: relative;
     align-items: center;
     margin: 0 auto;
 }
@@ -144,6 +145,7 @@
 
 .container-2 {
     width: 60%;
+    position: relative;
 }
 
 .container-1 p {
@@ -151,20 +153,15 @@
     text-align: center;
 }
 
-#absolute {
+#vr-briller {
     position: absolute;
-    width: 340px; 
-    height: 350px; 
-    right: 893px; 
-    top: 2026px; 
+    top: -100px;
 }
 
-#relative {
-    position: relative;
-    width: 340px; 
-    height: 350px;
-    left: 313px; 
-    top: -62px; 
+#robots {
+    position: absolute;
+    bottom: -100px;
+    right: 0;
 }
 
 /*----------------SECTION 5: EVENTS-SECTION----------------*/
@@ -192,7 +189,7 @@
     flex-direction: column;
     height: auto;
     width: 80%;
-    gap: 4em;
+    gap: 2em;
     padding: 1em;
     margin: 0 auto;
     padding-bottom: 6%;
@@ -212,12 +209,12 @@
 
 .events-container {
     display: flex;
+    padding-inline-start: 0;
+    justify-content: space-between;
     flex-direction: row;
-    gap:2.5em;
     margin: 0;
     list-style:none; 
-    padding: 1em;
-    max-width: 100%;
+    width: 100%;
     overflow: auto;
 }
 
@@ -387,22 +384,38 @@
         padding: 0% 12%;
     }
 
-    #absolute,
-    #relative {
-        position: unset;
-        height: 100%;
-        width: 100%;
-        display: none;
-    }
-
     .wrapper {
         display: flex;
         flex-direction: column;
         height: auto;
     }
 
+    .vr-section {
+        height: fit-content;
+        padding: 15% 0;
+    }
+
     .container-1 {
         width: 100%;
+    }
+
+    .container-2 {
+        width: 100%;
+        height: 400px;
+    }
+
+    #vr-briller {
+        position: absolute;
+        bottom: 0;
+        top: initial;
+        width: 80%;
+    }
+    
+    #robots {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%;
     }
 
     .events-section {
@@ -413,7 +426,6 @@
     }
 
     .events-section .headline {
-        width: 90%;
         padding: 0;
     }
 
