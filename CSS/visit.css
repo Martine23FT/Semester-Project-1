@@ -32,8 +32,7 @@ body {
     width: 70%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding: 60px 0px;
     gap: 30px;
 }
 
@@ -83,10 +82,23 @@ body {
 
 /*-------------GET INVOLVED-----------------*/ 
 
-.get-involved {
+.details-section {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.details-section img {
+    border: 6px solid #7DB3C7;
+    border-radius: 6px;
+    width: 30%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.get-involved {
     background-color: #7DB3C7;
     border-radius: 6px;
     font-family: 'Quicksand', sans-serif;
@@ -96,12 +108,8 @@ body {
     margin-top: 10px;
     height: 50px;
     cursor: pointer;
-    width: 40%;
-}
-
-.summary-txt {
-  width: 100%;
-  height: 100px;
+    width: 450px;
+    margin-left: 50px;
 }
 
 /*----------------MEDIA QUIERIES: MOBILE----------------*/
