@@ -52,6 +52,8 @@
 .list-container {
     background-color: white;
     width: 33%;
+    text-decoration: none;
+    color: #16243E;
 }
 
 .list-3 img {

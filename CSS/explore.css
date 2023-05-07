@@ -1,6 +1,9 @@
-body {
+/*------------BACKGROUND-------------*/
+
+.explore-wrapper {
     background-image: url(/IMAGES/explore/Background.png);
-    background-size: cover;
+    padding-top: 8%;
+    padding-bottom: 3%;
 }
 
 /*------------SECTION 1-3: EXPLORE-SECTIONS-------------*/
@@ -9,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 45vh;
 }
 
 .image-container {

@@ -264,6 +264,8 @@ footer i {
     padding: 1em;
     padding-left: 0;
     font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
 }
 
 /*----------------MEDIA QUIRERIES: MOBILE----------------*/
