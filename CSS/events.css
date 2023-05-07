@@ -1,5 +1,5 @@
 body {
-    background-color: #7DB3C7;
+    background-color: #DBF1F9;
 }
 
 /*-------------SECTION 1: AERONAUTICS-SECTION---------------*/
@@ -13,6 +13,7 @@ body {
     justify-content: center;
     padding-left: 10%;
     position: relative;
+    background-color: #7DB3C7;
 }
 
 .aeronautics-section .dates {
@@ -30,7 +31,9 @@ body {
 /*-------------SECTION 2: SPECIAL-EVENTS---------------*/
 
 .special-events .headline-style-2 {
+    padding: 2% 0%;
     padding-left: 10%;
+    margin: 0;
 }
 
 .list-2 {
@@ -43,6 +46,7 @@ body {
 
 .special-events {
     padding-bottom: 80px;
+    background-color: #7DB3C7;
 }
 
 .special-event {
@@ -73,8 +77,35 @@ body {
 
 /*-------------SECTION 3: KIDS & FAMILIES---------------*/
 
-.events-section {
-    background-color: #DBF1F9;
-    margin: 0;
+/*-------------SECTION 4: ADULTS---------------*/
+
+/*-------------SECTION 4: BROCHURE---------------*/
+
+.brochure-section {
+    background-color: #FDFAF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.brochures {
+    display: flex;
+    width: 60%;
+    padding: 50px 0px;
+}
+
+.brochures img {
+    padding-right: 50px;
+    object-fit: contain;
+}
+
+.brochures .primary-btn {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
 
