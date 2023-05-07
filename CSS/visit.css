@@ -4,10 +4,9 @@ body {
 
 #museum-hero {
     background-image: url(/IMAGES/visit/heropicture.png);
-    height: 450px;
-    width: 1440px;
+    height: 45vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 /*----------------SECTION 2: VISIT US----------------*/
