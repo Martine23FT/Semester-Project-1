@@ -251,6 +251,11 @@ footer {
     margin: 0;
 }
 
+.footer-heading:hover {
+    color: #FBA729;
+    cursor: pointer;
+}
+
 footer p {
     line-height: 1.0;
     font-size: 1rem;
@@ -262,6 +267,10 @@ footer i {
     font-size: 1.6rem;
     text-decoration: none;
     color: white;
+}
+
+footer i:hover {
+    color: #FBA729;
 }
 
 /*----------------MEDIA QUIRERIES: MOBILE----------------*/
