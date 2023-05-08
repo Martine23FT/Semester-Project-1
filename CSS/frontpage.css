@@ -4,7 +4,7 @@
     background-image: url(/IMAGES/frontpage/hero-img.png);
     background-size: cover;
     background-size: 100% 100%;
-    height: 740px;
+    height: 60vh;
     max-width: 100%;
     display: flex;
 }
@@ -19,6 +19,7 @@
 
 .hero-text p {
     width: 36%;
+    padding-bottom: 1em;
 }
 
 /*----------------SECTION 2: LETS EXPLORE----------------*/
@@ -44,7 +45,6 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
-    padding-bottom: 3em;
     overflow: auto;
     max-width: 100%;
 }
@@ -152,6 +152,7 @@
 .container-1 p {
     width: 87%;
     text-align: center;
+    margin-bottom: 0;
 }
 
 
@@ -283,6 +284,10 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.get-involved-section p {
+    margin-bottom: 0;
 }
 
 /*----------------SECTION 7: EXPLORE----------------*/
@@ -424,4 +429,14 @@
 /*----------------MEDIA QUIERIES: IPAD----------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
+    
+    .vr-section {
+        height: fit-content;
+        padding: 15% 0;
+    }
+
+    #vr-briller {
+        width: 100%;
+        padding-top: 15%;
+    }
 }
