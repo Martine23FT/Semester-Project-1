@@ -158,6 +158,20 @@ header {
     background-position: right;
 }
 
+.view-all {
+    text-decoration: 4px underline #FBA729;
+    color: #19191E;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.view-all:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+
 /*----------------HEADLINES----------------*/
 
 .headline-style-1,

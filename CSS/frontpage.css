@@ -172,14 +172,6 @@
     padding-top: 4%;
 }
 
-.view-all {
-    text-decoration: 4px underline #FBA729;
-    color: #19191E;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-}
-
 .events-section {
     display: flex;
     justify-content: center;
