@@ -47,5 +47,16 @@
 
 /*------------CONTACT-------------*/
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .explore-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-explore {
+        display: block;
+    }
+}
 
 

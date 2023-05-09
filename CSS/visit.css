@@ -85,16 +85,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    min-height: 35vh;
     padding-bottom: 70px;
 }
 
 .details-section img {
     border: 6px solid #7DB3C7;
     border-radius: 6px;
-    width: 30%;
-    height: 20vh;
+    width: 25%;
     object-fit: cover;
+}
+
+.summaries {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    gap: 30px;
+    min-height:100%;
 }
 
 .get-involved {
@@ -103,11 +111,9 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 10px;
-    height: 50px;
+    min-height: 50px;
     cursor: pointer;
-    width: 450px;
+    width: 100%;
     margin-left: 50px;
 }
 
@@ -116,6 +122,24 @@ body {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .visit-section {
         width: 100%;
+    }
+
+    .get-involved {
+        margin-left: 0;
+    }
+
+    .details-section {
+        flex-wrap: wrap;
+        min-height: 25vh;
+    }
+
+    .details-section img {
+        width: 80%;
+    }
+    
+    .summaries {
+        width: 80%;
+        margin-top: 30px;
     }
 
     .upper-part {
@@ -150,5 +174,13 @@ body {
 
     .info-grid i {
         font-size: 28px;
+    }
+
+    .details-section img {
+        width: 37.5%;
+    }
+    
+    .summaries {
+        width: 37.5%;
     }
 }
