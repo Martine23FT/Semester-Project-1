@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(180deg, #DBF1F9 14%, #7DB3C7 100%);
+    background: linear-gradient(180deg, #DBF1F9 14%, #3D839C 100%);
 }
 
 /*---------HEADLINE: TYPEWRITER EFFECT----------*/
@@ -184,27 +184,26 @@ body {
     width: 85%;
 }
 
+.info p {
+    padding-bottom: 20px;
+}
+
 .card-title {
     font-family: 'Quicksand', sans-serif;
 }
 
 .exhibits-btn {
-    width: 8rem;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: 200%;
-    border-radius: 30px;
-    text-decoration: none;
     color: #16243E;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    border: none;
+    padding: 0.8em 2em;
+    border-radius: 50px;
     font-size: 16px;
-    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
     transition: .3s;
-    overflow: hidden;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 2em;
+    border: none;
+    text-decoration: none;
 }
 
 #green-btn {
@@ -230,6 +229,7 @@ body {
 /*--------------MEDIA QUERIES---------------*/ 
 
 @media only screen and (min-width: 0px) and (max-width: 1180px) {
+    
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -239,6 +239,18 @@ body {
 
     .card {
         height: 40vh;
+    }
+
+    .card .info {
+        opacity: 1;
+    }
+
+    .info p {
+        display: none;
+    }
+
+    .card:before {
+        opacity: 1;
     }
 
     #polarbear {
@@ -265,4 +277,81 @@ body {
         width: 80%;
         padding: 20px 0px;
     }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .card-title {
+        font-size: 1.7em;
+    }
+
+    .exhibits-btn {
+        padding: 0.4em 1em;
+    }
+
+    .text-wrapper .static-txt {
+        font-size: 30px;
+    }
+
+    .dynamic-txt {
+        padding-left: 20px;
+    }
+
+    .dynamic-txt li {
+        font-size: 34px;
+    }
+
+    .text-wrapper {
+        height: 50px;
+    }
+
+    .dynamic-txt li span::before {
+        height: 50px;
+    }
+
+    .exhibits-btn {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+
+.text-wrapper {
+    padding: 10% 0% 5%;
+}    
+
+.text-wrapper .static-txt {
+    font-size: 40px;
+}
+
+.dynamic-txt {
+    padding-left: 20px;
+}
+
+.dynamic-txt li {
+    font-size: 44px;
+}
+
+.text-wrapper {
+    height: 60px;
+}
+
+.dynamic-txt li span::before {
+    height: 60px;
+}
+
+.text p {
+    font-size: 1em;
+}
+
+.card .info {
+    padding-bottom: 15%;
+}
+
+.card-title {
+    padding-bottom: 2%;
+}
+
+.exhibits-btn {
+    font-size: 18px;
+}
 }
