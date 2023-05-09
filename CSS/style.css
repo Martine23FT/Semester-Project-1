@@ -229,6 +229,10 @@ header {
     p {
         font-size: 1.3em;
     }
+
+    .headline-style-1 {
+        font-size: 2.2rem;
+    }
 }
 
 /*----------------FOOTER----------------*/
