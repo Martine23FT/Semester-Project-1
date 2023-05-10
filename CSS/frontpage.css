@@ -309,12 +309,24 @@
         height: 500px;
     }
 
+    .hero-text {
+        padding-top: 10%;
+    }
+
     .hero-text p {
-        padding-bottom: 20px;
+        width: 100%;
+        font-size: .8rem; 
+        padding-bottom: 5%;
     }
 
     .explore-section p {
         width: 90%;
+    }
+
+    .explore-section,
+    .explore-section-2 {
+        width: 100%;
+        padding: 10% 4%;
     }
 
     .list-container:hover {
@@ -363,6 +375,15 @@
         padding: 0% 12%;
     }
 
+    .circle {
+        width: 55px;
+        height: 55px;
+    }
+
+    .circle i {
+        font-size: 1.3rem;
+    }
+
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -384,11 +405,19 @@
         width: 100%;
     }
 
+    .container-1 p {
+        width: 100%;
+    }
+
     .events-section {
         width: 100%;
         overflow: scroll;
         scroll-behavior: smooth;
-        padding: 15% 4%;
+        padding: 15% 0% 10% 10%;
+    }
+
+    .events-section .view-all {
+        padding-right: 10%;
     }
 
     .events-section .headline {
@@ -396,7 +425,7 @@
     }
 
     .events-container {
-        gap: 10px;
+        gap: 15px;
         padding: 0;
     }
 
@@ -405,38 +434,19 @@
     }
 
     .explore-section-2 .headline {
-        padding: 0;
+        padding: 0% 0% 0% 5%;
     }
 
     .explore-section-2 {
-        gap: 16px;
+        gap: 20px;
     }
 
     .explore-section-2 .desc {
-        height: 150px; 
+        height: 110px; 
     }
 
-    .hero-text {
-        padding-top: 8%;
-    }
-
-    .hero-text p {
-        width: 100%;
-        font-size: 16px; 
-    }
-
-    .explore-section,
-    .explore-section-2 {
-        width: 100%;
-        padding: 10% 4%;
-    }
-
-    .container-1 p{
-        width: 100%;
-    }
-
-    .circles {
-        width: 15%;
+    .explore-section-2 .primary-btn {
+        margin: 0;
     }
 }
 

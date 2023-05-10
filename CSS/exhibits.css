@@ -185,6 +185,7 @@ body {
 
 .card-title {
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
 }
 
 .exhibits-btn {

@@ -303,12 +303,16 @@ footer i:hover {
 @media only screen and (min-width: 0px) and (max-width: 1180px) {
     #footer-wrapper {
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
         padding: 4% 0%;
     }
 
+    footer p {
+        font-size: .8rem;
+    }
+
     footer i {
-        padding-left: 0px;
+        padding: 4% 4% 0% 0%;
     }
 
     #col-1 {
