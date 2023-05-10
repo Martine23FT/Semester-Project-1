@@ -296,6 +296,7 @@ footer i {
 
 footer i:hover {
     color: #FBA729;
+    transform: scale(1.1);
 }
 
 /*----------------MEDIA QUIRERIES: MOBILE----------------*/
