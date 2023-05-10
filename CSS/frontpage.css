@@ -481,7 +481,11 @@
     }
 
     .events-container {
-        gap: 10px;
+        gap: 20px;
+    }
+
+    .events-section {
+        width: 80%;
     }
 
     .hero-section .headline-style-1 {
