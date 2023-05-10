@@ -122,6 +122,10 @@
     font-size: 1.6rem; 
 }
 
+.icon-mobile {
+    display: none;
+}
+
 /*----------------SECTION 4: VR-SECTION----------------*/
 
 .vr-section {
@@ -352,22 +356,6 @@
         height: 70%;
     }
 
-    .icon-section {
-        height: 200px;
-    }
-
-    #circle-container {
-        width: 90%;
-        gap: 40px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .circles {
-        padding: 0% 12%;
-    }
-
     .circle {
         width: 55px;
         height: 55px;
@@ -375,6 +363,16 @@
 
     .circle i {
         font-size: 1.3rem;
+    }
+
+    #circle-container {
+        width: 80%;
+        gap: 40px;
+    }
+
+    .circle-text p {
+        font-size: .9rem;
+        margin-bottom: 0;
     }
 
     .wrapper {
@@ -487,13 +485,22 @@
     }
 
     #circle-container {
-        width: 80%;
+        width: 100%;
+        gap: 80px;
     }
 
-    .circles p {
-        line-height: 1;
-        height: 42px;
+    .circle-text p {
+        font-size: 1.2rem;
         margin-bottom: 0;
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle i {
+        font-size: 1.7rem;
     }
 
     .wrapper {
@@ -539,4 +546,27 @@
     .list-container:hover {
         display: none;
     }
+
+    .icon-section {
+        display: none;
+    }
+
+    .icon-mobile {
+        display: flex;
+        flex-direction: column;
+        background-color: #7DB3C7;
+        align-items: center;
+        justify-content: center;
+        padding: 5% 0%;
+        text-align: center;
+    }
+
+    #circle-container {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
+
+
+
