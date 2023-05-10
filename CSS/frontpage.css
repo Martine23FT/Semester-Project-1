@@ -214,31 +214,6 @@
     object-fit: cover;
 }
 
-.dates {
-    color: #1E1E19;
-    border-radius: 5px;
-    background-color: white;
-    width: 20%;
-    height: 20%;
-    text-align: center;
-    font-size: .9rem;
-    font-family: 'Quicksand', sans-serif;
-    top: 6%;
-    left: 6%;
-    opacity: 80%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
-}
-
-.dates span {
-    font-weight: 700;
-    font-size: .9rem;
-}
-
 .event-text {
     width: 100%;
     height: 25%;
@@ -262,6 +237,31 @@
 
 .event-time {
     font-family: 'Oxygen', sans-serif, serif;
+}
+
+.dates {
+    color: #1E1E19;
+    border-radius: 5px;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    font-size: .9rem;
+    font-family: 'Quicksand', sans-serif;
+    top: 6%;
+    left: 6%;
+    opacity: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.dates span {
+    font-weight: 700;
+    font-size: .9rem;
 }
 
 /*----------------SECTION 6: GET-INVOLVED-SECTION----------------*/
