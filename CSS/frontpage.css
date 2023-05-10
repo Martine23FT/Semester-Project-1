@@ -4,7 +4,7 @@
     background-image: url(/IMAGES/frontpage/hero-img.png);
     background-size: cover;
     background-size: 100% 100%;
-    height: 65vh;
+    height: 740px;
     max-width: 100%;
     display: flex;
 }
@@ -313,11 +313,11 @@
         background-repeat: no-repeat;
         background-size: 100% contain;
         background-position: center;
-        height: 60vh;
+        height: 500px;
     }
 
     .hero-text {
-        padding-top: 15%;
+        padding-top: 8%;
     }
 
     .hero-text p {
@@ -429,6 +429,7 @@
         background-image: url(/IMAGES/frontpage/hero-mob.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
+        height: 650px;
     }
 
     .hero-section .headline-style-1 {
