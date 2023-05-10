@@ -302,8 +302,6 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) {
 
     .hero-section {
-        background-image: url(/IMAGES/frontpage/hero-mob.png);
-        background-repeat: no-repeat;
         background-size: 100% contain;
         background-position: center;
         height: 500px;
@@ -329,16 +327,12 @@
         padding: 10% 4%;
     }
 
-    .list-container:hover {
-        display: none;
-    }
-
     .list-3 {
         flex-direction: column;
         padding-top: 6%;
         gap: 20px; 
         width: 100%;
-        padding-bottom: 1em;
+        padding-bottom: 5%;
     }
 
     .explore-section .primary-btn {
@@ -401,10 +395,7 @@
     }
 
     .container-1,
-    .container-2 {
-        width: 100%;
-    }
-
+    .container-2,
     .container-1 p {
         width: 100%;
     }
@@ -454,15 +445,21 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
     
-    .explore-section {
-        padding-top: 5%;
+    .hero-section {
+        background-size: 100% 100%;
+        height: 610px;
     }
 
-    .hero-section {
-        background-image: url(/IMAGES/frontpage/hero-mob.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 610px;
+    .hero-section .headline-style-1 {
+        padding-top: 4%;
+    }
+
+    .hero-text p {
+        width: 65%;
+    }
+
+    .explore-section {
+        padding-top: 5%;
     }
 
     .list-3 img {
@@ -475,11 +472,6 @@
 
     .get-involved-section p {
         margin-top: 0;
-    }
-
-    .wrapper {
-        display: flex;
-        flex-direction: column;
     }
 
     .list-3 {
@@ -495,20 +487,19 @@
         width: 100%;
     }
 
-    .events-container {
-        gap: 20px;
-    }
-
-    .events-section {
+    #circle-container {
         width: 80%;
     }
 
-    .hero-section .headline-style-1 {
-        padding-top: 4%;
+    .circles p {
+        line-height: 1;
+        height: 42px;
+        margin-bottom: 0;
     }
 
-    .hero-text p {
-        width: 65%;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
     }
 
     .vr-section {
@@ -521,14 +512,12 @@
         padding-top: 5%;
     }
 
-    #circle-container {
-        width: 80%;
+    .events-container {
+        gap: 20px;
     }
 
-    .circles p {
-        line-height: 1;
-        height: 42px;
-        margin-bottom: 0;
+    .events-section {
+        width: 80%;
     }
 
     .container-1 {
@@ -539,5 +528,16 @@
     .get-involved-section {
         width: 100%;
         padding: 5% 10%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1180px) {
+    .hero-section {
+        background-image: url(/IMAGES/frontpage/hero-mob.png);
+        background-repeat: no-repeat;
+    }
+
+    .list-container:hover {
+        display: none;
     }
 }
