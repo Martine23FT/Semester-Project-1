@@ -307,10 +307,6 @@ footer i:hover {
         padding: 6% 0%;
     }
 
-    footer p {
-        font-size: .8rem;
-    }
-
     footer i {
         padding: 4% 4% 0% 0%;
     }
@@ -336,6 +332,11 @@ footer i:hover {
     }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    footer p {
+        font-size: .8rem;
+    }
+}
 
 /*------------SECTION 4: CONTACT US-------------*/
 

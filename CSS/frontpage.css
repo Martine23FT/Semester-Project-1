@@ -462,11 +462,15 @@
         background-image: url(/IMAGES/frontpage/hero-mob.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 700px;
+        height: 610px;
+    }
+
+    .list-3 img {
+        height: 50%;
     }
 
     .desc {
-        height: 200px;
+        height: 160px;
     }
 
     .get-involved-section p {
@@ -481,17 +485,14 @@
     .list-3 {
         display: flex;
         flex-direction: column;
-        gap: 2.5em; 
-        width: 90%;
+        gap: 40px; 
+        width: 80%;
         justify-content: flex-start;
-    }
-
-    .list-3 img {
-        width: 100%;
+        padding-top: 4%;
     }
 
     .list-container {
-        width: auto;
+        width: 100%;
     }
 
     .events-container {
