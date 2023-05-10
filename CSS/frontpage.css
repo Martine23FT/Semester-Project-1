@@ -440,6 +440,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
     
+    .explore-section {
+        padding-top: 5%;
+    }
+
     .hero-section {
         background-image: url(/IMAGES/frontpage/hero-mob.png);
         background-size: 100% 100%;
@@ -461,17 +465,15 @@
     }
 
     .list-3 {
-        overflow: scroll;
-        scroll-behavior: smooth;
         display: flex;
-        gap: 0.5em; 
-        width: 98%;
+        flex-direction: column;
+        gap: 2.5em; 
+        width: 90%;
         justify-content: flex-start;
-        padding-bottom: 1em;
     }
 
     .list-3 img {
-        width: auto;
+        width: 100%;
     }
 
     .list-container {
@@ -497,7 +499,7 @@
 
     #vr-briller {
         width: 100%;
-        padding-top: 15%;
+        padding-top: 5%;
     }
 
     #circle-container {
@@ -508,5 +510,15 @@
         line-height: 1;
         height: 42px;
         margin-bottom: 0;
+    }
+
+    .container-1 {
+        padding: 5% 0%;
+        width: 100%;
+    }
+
+    .get-involved-section {
+        width: 100%;
+        padding: 5% 10%;
     }
 }
