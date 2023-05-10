@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 90px;
-    padding: 4%;
+    padding: 6% 0% 4%;
 }
 
 .text-wrapper .static-txt {
