@@ -70,6 +70,7 @@
 
 .desc {
     height: 11em;
+    min-height: fit-content;    
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -180,7 +181,6 @@
     height: auto;
     width: 80%;
     gap: 2em;
-    padding: 1em;
     margin: 0 auto;
     padding-bottom: 6%;
 }
@@ -316,6 +316,22 @@
         height: 500px;
     }
 
+    .desc {
+        height: 120px;
+    }
+
+    .explore-section-2 .headline {
+        padding: 0;
+    }
+
+    .explore-section-2 {
+        gap: 16px;
+    }
+
+    .explore-section-2 .desc {
+        height: 100px; 
+    }
+
     .hero-text {
         padding-top: 8%;
     }
@@ -328,8 +344,7 @@
     .explore-section,
     .explore-section-2 {
         width: 100%;
-        padding: 0;
-        padding-top: 10%;
+        padding: 10% 4%;
     }
 
     .container-1 p{
@@ -432,6 +447,41 @@
         height: 650px;
     }
 
+    .desc {
+        height: 200px;
+    }
+
+    .get-involved-section p {
+        margin-top: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-3 {
+        overflow: scroll;
+        scroll-behavior: smooth;
+        display: flex;
+        gap: 0.5em; 
+        width: 98%;
+        justify-content: flex-start;
+        padding-bottom: 1em;
+    }
+
+    .list-3 img {
+        width: auto;
+    }
+
+    .list-container {
+        width: auto;
+    }
+
+    .events-container {
+        gap: 10px;
+    }
+
     .hero-section .headline-style-1 {
         padding-top: 4%;
     }
@@ -442,11 +492,21 @@
 
     .vr-section {
         height: fit-content;
-        padding: 15% 0;
+        padding: 5% 0;
     }
 
     #vr-briller {
         width: 100%;
         padding-top: 15%;
+    }
+
+    #circle-container {
+        width: 80%;
+    }
+
+    .circles p {
+        line-height: 1;
+        height: 42px;
+        margin-bottom: 0;
     }
 }
