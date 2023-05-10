@@ -38,7 +38,7 @@ body {
     width: 70%;
 }
 
-.col-2-1 span {
+#text {
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
 }
