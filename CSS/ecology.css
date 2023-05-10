@@ -7,8 +7,6 @@
 article {
     display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: center;
 }
 
 .text {
@@ -22,12 +20,11 @@ article .headline-style-3 {
     padding: 0% 17%;
 }
 
-article img {
+#flip {
     height: 130px;
     width: 150px;
     object-fit: contain;
-    margin-right: 10%;
-    margin-top: 16%;
+    margin: 18% 6% 2% 10%;
 }
 
 /*----------------SECTION 3: FLIP-CARDS----------------*/
@@ -37,7 +34,10 @@ article img {
     gap: 40px;
     width: 80%;
     margin: 0 auto;
-    padding: 3% 0% 7%;
+    padding-bottom: 7%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .flip-card {
