@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     background-color: #72bfdb;
     scroll-behavior: smooth;
+    font-size: 18px;
 }
   
 *,
@@ -20,8 +21,14 @@ body {
 
 p {
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.125em;
     line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+.subtitle {
+    font-family: 'Quicksand', sans-serif, serif;
 }
 
 /*----------------HEADER----------------*/
@@ -31,7 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #16243E;
-    height: 8em;
+    height: 154px;
 }
 
 #logo-container {
@@ -45,13 +52,13 @@ header {
 }
 
 #logo-container img {
-    width: 3.5em;
-    height: 2.5em;
-    display: block;
+    width: 50px;
+    height: 36px;
+    object-fit: cover;
 }
 
 #logo-container p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: 'Quicksand', sans-serif;
     display: flex;
@@ -60,7 +67,7 @@ header {
 }
 
 #logo-container span {
-    font-size: 1em;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -74,7 +81,7 @@ header {
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1rem;
     margin-top: 28px;
     padding: 12px 25px;
     display: inline-block;
@@ -126,12 +133,12 @@ header {
     }
 
     #logo-container p {
-        font-size: 1.5em;
+        font-size: 1.3rem;
         line-height: 1.2;
     }
 
     #logo-container span {
-        font-size: .8em;
+        font-size: 1rem;
     }
 }
 
@@ -140,16 +147,16 @@ header {
 .primary-btn {
     text-decoration: none;
     color: #16243E;
-    padding: 0.8em 2em;
+    padding: 14px 30px;
     background-image: linear-gradient(to left, #FBA729, #EE5A24, #FBA729);
     background-size: 200%;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: .9rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     transition: .3s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin-top: 2em;
+    margin-top: 40px;
     border: none;
 }
 
@@ -163,7 +170,7 @@ header {
     color: #19191E;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .view-all:hover {
@@ -176,7 +183,6 @@ header {
 
 .headline-style-1,
 .headline-style-3 {
-    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     margin: 0;
     display: flex;
@@ -184,12 +190,12 @@ header {
 }
 
 .headline-style-3 {
-    font-size: 2em;
+    font-size: 1.8rem;
     text-align: center;
 }
 
 .headline-style-1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     width: 25%;
 }
@@ -197,8 +203,7 @@ header {
 .headline-style-1 span, 
 .headline-style-2,
 .headline-style-3 span {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
@@ -209,7 +214,6 @@ header {
 
 .subtitle {
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
     color: #16243E;
     font-weight: 700;
 }
@@ -217,12 +221,12 @@ header {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
 
     .headline-style-3 {
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-align: center;
     }
 
     .headline-style-1 {
-        font-size: 2.125rem;
+        font-size: 1.8rem;
     }
 
     .headline-style-1 span {
@@ -230,19 +234,16 @@ header {
     }
 
     .headline-style-2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 0;
     }
 
     p {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
-    p {
-        font-size: 1.3em;
-    }
 
     .headline-style-1 {
         font-size: 2.2rem;
@@ -302,8 +303,8 @@ footer i:hover {
 @media only screen and (min-width: 0px) and (max-width: 1180px) {
     #footer-wrapper {
         flex-direction: column;
-        gap: 1.6em;
-        padding: 1.6em 0em;
+        gap: 30px;
+        padding: 4% 0%;
     }
 
     footer i {
@@ -351,27 +352,37 @@ footer i:hover {
 input,
 textarea {
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
     margin: 5px 0px; 
     width: 100%;
     padding-left: 10px; 
     border-radius: 6px; 
     border: none;
+    font-size: .9rem;
 }
 
 input {
     height: 40px; 
-    margin: 5px 0px; 
+    margin: 2% 0%; 
 }
 
 textarea {
     height: 200px; 
-    padding-top: 10px; 
+    padding-top: 4%; 
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .contact-forms {
         width: 80%;
+    }
+
+    .primary-btn {
+        margin-top: 25px;
+        padding: 10px 20px;
+        font-size: .8rem;
+    }
+
+    .view-all {
+        font-size: .8rem;
     }
 }
 

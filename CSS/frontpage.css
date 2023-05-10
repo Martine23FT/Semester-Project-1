@@ -4,8 +4,7 @@
     background-image: url(/IMAGES/frontpage/hero-img.png);
     background-size: cover;
     background-size: 100% 100%;
-    height: 740px;
-    max-width: 100%;
+    height: 720px;
     display: flex;
 }
 
@@ -19,7 +18,7 @@
 
 .hero-text p {
     width: 36%;
-    padding-bottom: 1em;
+    padding-bottom: 2%;
 }
 
 /*----------------SECTION 2: LETS EXPLORE----------------*/
@@ -29,14 +28,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0% 10%;
-    padding-bottom: 80px; 
+    padding: 0% 10% 4% 10%;
 }
 
 .explore-section p {
     width: 75%;
     text-align: center;
-    padding-bottom: 30px; 
+    padding-bottom: 2%; 
 }
 
 .list-3 {
@@ -44,9 +42,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 40px;
     overflow: auto;
-    max-width: 100%;
 }
 
 .list-container {
@@ -69,15 +66,14 @@
 }
 
 .desc {
-    height: 11em;
-    min-height: fit-content;    
+    height: 180px;  
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
     text-align: center;
-    padding-top: 10px; 
+    padding-top: 4%; 
 }
 
 .container {
@@ -124,7 +120,7 @@
 }
 
 .circle i {
-    font-size: 28px; 
+    font-size: 1.6rem; 
 }
 
 /*----------------SECTION 4: VR-SECTION----------------*/
@@ -180,7 +176,7 @@
     flex-direction: column;
     height: auto;
     width: 80%;
-    gap: 2em;
+    gap: 25px;
     margin: 0 auto;
     padding-bottom: 6%;
 }
@@ -190,8 +186,7 @@
 }
 
 .event {
-    height:20em; 
-    width: 15em;
+    height: 370px; 
     background-color: white;
     text-align: center;
     margin-left: 0;
@@ -201,16 +196,15 @@
     display: flex;
     padding-inline-start: 0;
     justify-content: space-between;
-    flex-direction: row;
     margin: 0;
-    list-style:none; 
+    list-style: none; 
     width: 100%;
     overflow: auto;
 }
 
 .event-image {
     height: 75%;
-    width: 15em;
+    width: 270px;
     object-fit: cover;
     position: relative;
 }
@@ -228,10 +222,10 @@
     width: 20%;
     height: 20%;
     text-align: center;
-    font-size: 16px;
+    font-size: .9rem;
     font-family: 'Quicksand', sans-serif;
-    top: 1em;
-    left: 1em;
+    top: 6%;
+    left: 6%;
     opacity: 80%;
     position: absolute;
     display: flex;
@@ -243,7 +237,7 @@
 
 .dates span {
     font-weight: 700;
-    font-size: 16px;
+    font-size: .9rem;
 }
 
 .event-text {
@@ -255,21 +249,20 @@
     align-items: center;
 }
 
-.event-title {
-    font-size: 18px;
-    color: #19191E;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
+.event-title,
+.event-time {
     width: 100%;
     margin: 0;
-    line-height: 1.5;
+    color: #16243E;
+}
+
+.event-title {
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .event-time {
-    color: #19191E;
-    font-family: 'Oxygen', sans-serif;
-    width: 100%;
-    margin: 0;
+    font-family: 'Oxygen', sans-serif, serif;
 }
 
 /*----------------SECTION 6: GET-INVOLVED-SECTION----------------*/
@@ -316,66 +309,42 @@
         height: 500px;
     }
 
-    .desc {
-        height: 120px;
-    }
-
-    .explore-section-2 .headline {
-        padding: 0;
-    }
-
-    .explore-section-2 {
-        gap: 16px;
-    }
-
-    .explore-section-2 .desc {
-        height: 100px; 
-    }
-
-    .hero-text {
-        padding-top: 8%;
-    }
-
     .hero-text p {
-        width: 100%;
-        font-size: 16px; 
+        padding-bottom: 20px;
     }
 
-    .explore-section,
-    .explore-section-2 {
-        width: 100%;
-        padding: 10% 4%;
+    .explore-section p {
+        width: 90%;
     }
 
-    .container-1 p{
-        width: 100%;
-    }
-
-    .circles {
-        width: 15%;
+    .list-container:hover {
+        display: none;
     }
 
     .list-3 {
-        overflow: scroll;
-        scroll-behavior: smooth;
-        display: flex;
-        gap: 0.5em; 
-        width: 98% !important;
-        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 6%;
+        gap: 20px; 
+        width: 100%;
         padding-bottom: 1em;
     }
 
     .explore-section .primary-btn {
         margin-top: 15px;
-        margin-bottom: 40px;
     }
 
-    .list-3 img {
-        width: auto !important;
+    .desc {
+        height: 135px;
+        justify-content: center;
+        padding: 0;
     }
 
     .list-container {
-        width: auto;
+        width: 90%;
+    }
+
+    .list-container img {
+        height: 70%;
     }
 
     .icon-section {
@@ -434,6 +403,41 @@
     .get-involved-section {
         padding: 15% 10%;
     }
+
+    .explore-section-2 .headline {
+        padding: 0;
+    }
+
+    .explore-section-2 {
+        gap: 16px;
+    }
+
+    .explore-section-2 .desc {
+        height: 150px; 
+    }
+
+    .hero-text {
+        padding-top: 8%;
+    }
+
+    .hero-text p {
+        width: 100%;
+        font-size: 16px; 
+    }
+
+    .explore-section,
+    .explore-section-2 {
+        width: 100%;
+        padding: 10% 4%;
+    }
+
+    .container-1 p{
+        width: 100%;
+    }
+
+    .circles {
+        width: 15%;
+    }
 }
 
 /*----------------MEDIA QUIERIES: IPAD----------------*/
@@ -448,7 +452,7 @@
         background-image: url(/IMAGES/frontpage/hero-mob.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 650px;
+        height: 700px;
     }
 
     .desc {
