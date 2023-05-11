@@ -227,11 +227,11 @@ body {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 35px;
     }
 
     .card {
-        height: 40vh;
+        margin: 0 auto;
     }
 
     .card .info {
@@ -275,6 +275,11 @@ body {
     .card-title {
         font-size: 1.5rem;
         padding-bottom: 7%;
+    }
+
+    .card {
+        height: 350px;
+        width: 90%;
     }
 
     .text-wrapper {
@@ -327,6 +332,11 @@ body {
 
     .dynamic-txt li span::before {
         height: 60px;
+    }
+
+    .card {
+        height: 400px;
+        width: 80%;
     }
 
     .card .info {
