@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(180deg, #DBF1F9 14%, #3D839C 100%);
+    background: linear-gradient(180deg, #DBF1F9 20%, #3D839C 100%);
 }
 
 /*---------HEADLINE: TYPEWRITER EFFECT----------*/
@@ -13,7 +13,7 @@ body {
 }
 
 .text-wrapper .static-txt {
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 500;
     color: #16243E;
     font-family: 'Quicksand', sans-serif;
@@ -27,13 +27,13 @@ body {
 }
 
 .dynamic-txt {
-    padding-left: 30px;
+    padding-left: 2%;
 }
 
 .dynamic-txt li {
     position: relative;
     top: 0;
-    font-size: 42px;
+    font-size: 2.3rem;
     color: #4695B2;
     list-style: none;
     animation: slide 20s steps(5) infinite;
@@ -104,12 +104,10 @@ body {
 
 .wrapper {
     display: grid;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 2%;
     grid-template-columns: repeat(5, 1fr);
     width: 94%;
-    padding-top: 2rem;
-    padding-bottom: 5rem;
+    padding: 4% 0% 8%;
     margin: 0 auto;
 }
 
@@ -180,7 +178,7 @@ body {
 }
 
 .info p {
-    padding-bottom: 20px;
+    padding-bottom: 8%;
 }
 
 .card-title {
@@ -190,14 +188,14 @@ body {
 
 .exhibits-btn {
     color: #16243E;
-    padding: 0.8em 2em;
+    padding: 10px 20px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: .9rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     transition: .3s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin-top: 2em;
+    margin-top: 4%;
     border: none;
     text-decoration: none;
 }
@@ -229,8 +227,7 @@ body {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 40px;
-        padding-top: 20px;
+        gap: 30px;
     }
 
     .card {
@@ -265,35 +262,31 @@ body {
         object-position: 30% 5%;
     }
 
-    .text-wrapper {
-        padding-top: 50px;
-    }
-
     .text {
         width: 80%;
-        padding: 20px 0px;
+    }
+
+    .dynamic-txt {
+        padding-left: 5%;
     }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .card-title {
-        font-size: 1.7em;
+        font-size: 1.5rem;
+        padding-bottom: 7%;
     }
 
-    .exhibits-btn {
-        padding: 0.4em 1em;
+    .text-wrapper {
+        padding: 18% 0% 12%;
     }
 
     .text-wrapper .static-txt {
-        font-size: 30px;
-    }
-
-    .dynamic-txt {
-        padding-left: 20px;
+        font-size: 1.4rem;
     }
 
     .dynamic-txt li {
-        font-size: 34px;
+        font-size: 1.9rem;
     }
 
     .text-wrapper {
@@ -305,26 +298,27 @@ body {
     }
 
     .exhibits-btn {
-        font-size: 14px;
+        font-size: .8rem;
     }
+
+    .wrapper {
+        padding: 10% 0% 20%;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
 
     .text-wrapper {
-        padding: 10% 0% 5%;
+        padding: 10% 0% 8%;
     }    
 
     .text-wrapper .static-txt {
-        font-size: 40px;
-    }
-
-    .dynamic-txt {
-        padding-left: 20px;
+        font-size: 2rem;
     }
 
     .dynamic-txt li {
-        font-size: 44px;
+        font-size: 2.3rem;
     }
 
     .text-wrapper {
@@ -333,10 +327,6 @@ body {
 
     .dynamic-txt li span::before {
         height: 60px;
-    }
-
-    .text p {
-        font-size: 1em;
     }
 
     .card .info {
@@ -344,10 +334,15 @@ body {
     }
 
     .card-title {
-        padding-bottom: 2%;
+        padding-bottom: 5%;
+        font-size: 1.9rem;
     }
 
     .exhibits-btn {
-        font-size: 18px;
+        font-size: 1rem;
+    }
+
+    .text {
+        padding-bottom: 3%;
     }
 }

@@ -23,7 +23,7 @@ body {
 .upper-part {
     text-align: center;
     width: 70%;
-    padding-top: 30px;
+    padding-top: 2%;
 }
 
 .info-grid {
@@ -31,12 +31,12 @@ body {
     width: 70%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    padding: 60px 0px;
+    padding: 5% 0%;
     gap: 30px;
 }
 
 .info-grid i {
-    font-size: 35px;
+    font-size: 1.9rem;
     padding-right: 8%;
 }
 
@@ -70,7 +70,6 @@ body {
 
 .visit-text span {
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
     font-weight: 700;
 }
 
@@ -85,8 +84,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 35vh;
-    padding-bottom: 70px;
+    padding-bottom: 7%;
 }
 
 .details-section img {
@@ -102,7 +100,7 @@ body {
     justify-content: space-between;
     width: 25%;
     gap: 30px;
-    min-height:100%;
+    min-height: 100%;
 }
 
 .get-involved {
@@ -114,7 +112,7 @@ body {
     min-height: 50px;
     cursor: pointer;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 15%;
 }
 
 /*----------------MEDIA QUIERIES: MOBILE----------------*/
@@ -137,7 +135,7 @@ body {
 
     .details-section {
         flex-wrap: wrap;
-        min-height: 25vh;
+        padding: 7% 0% 14%;
     }
 
     .details-section img {
@@ -146,22 +144,36 @@ body {
     
     .summaries {
         width: 80%;
-        margin-top: 30px;
+        margin-top: 10%;
     }
 
     .upper-part {
         width: 80%;
+        padding-top: 8%;
     }
 
     .info-grid {
         width: 80%;
         display: flex;
         flex-direction: column;
-        padding-top: 30px;
     }
 
     .info-grid i {
-        font-size: 26px;
+        font-size: 1.6rem;
+    }
+
+    .summary-txt {
+        width: 90%;
+        margin: 0 auto;
+        padding: 5% 0%;
+    }
+
+    .contact-section .headline-style-2 {
+        padding: 5% 0%;
+    }
+
+    .contact-section {
+        padding-bottom: 10%;
     }
 }
 
@@ -180,11 +192,11 @@ body {
 
     .info-grid {
         width: 80%;
-        padding-top: 50px;
+        padding: 7% 0% 8%;
     }
 
     .info-grid i {
-        font-size: 28px;
+        font-size: 1.8rem;
     }
 
     .details-section img {
