@@ -2,10 +2,10 @@ body {
     background-color: #FDFAF5;
 }
 
-#museum-hero {
-    background-image: url(/IMAGES/visit/heropicture.png);
+.hero-section {
+    width: 100%;
     height: 440px;
-    background-repeat: no-repeat;
+    background-image: url(/IMAGES/visit/heropicture.png);
     background-size: 100% 100%;
 }
 
@@ -120,6 +120,13 @@ body {
 /*----------------MEDIA QUIERIES: MOBILE----------------*/
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+    
+    .hero-section {
+        height: 380px;
+        background-image: url(/IMAGES/visit/heropicture-mob.png);
+        background-size: 100% 100%;
+    }
+
     .visit-section {
         width: 100%;
     }
@@ -159,6 +166,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
+    .hero-section {
+        height: 380px;
+    }
+    
     .visit-section {
         width: 100%;
     }
