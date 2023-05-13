@@ -346,11 +346,12 @@ footer i:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1% 0% 3%; 
+    padding: 30px 0% 3%; 
+    font-family: 'Quicksand', sans-serif, serif;
 }
 
 .contact-forms {
-    width: 20%;
+    width: 30%;
     display: flex;
 }
 
