@@ -92,7 +92,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    col-1-1 {
+    .col-1-1 {
         order: 1;
     }
     
