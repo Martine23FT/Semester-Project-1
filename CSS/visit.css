@@ -115,6 +115,12 @@ body {
     margin-left: 15%;
 }
 
+#google-map {
+    width: 420px;
+    height: 250px;
+    border: none;
+}
+
 /*----------------MEDIA QUIERIES: MOBILE----------------*/
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
