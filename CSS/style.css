@@ -350,9 +350,15 @@ footer i:hover {
     font-family: 'Quicksand', sans-serif, serif;
 }
 
+.contact-section .headline-style-2 {
+    padding: 16px 0% 24px;
+}
+
 .contact-forms {
     width: 30%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 input,
@@ -395,5 +401,11 @@ textarea {
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
     .contact-forms {
         width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-section .headline-style-2 {
+        padding: 0%;
     }
 }

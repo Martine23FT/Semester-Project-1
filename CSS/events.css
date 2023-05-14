@@ -6,7 +6,7 @@ body {
 
 .aeronautics-section {
     background-image: url(/IMAGES/events/mobile/events-hero-mobile.png);
-    height: 500px;
+    height: 473px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -54,17 +54,13 @@ body {
     padding-left: 0;
 }
 
-.events-section.slide .headline {
-    padding-left: 60px;
-}
-
 .events-section.slide li.event {
     height: 400px;
 }
 
 .dates-special {
-    background-color: white;
-    padding: 12px 8px;
+    background-color: #CCCDCF;
+    padding: 12px 6px;
     width: fit-content;
 
     display: flex;
@@ -72,15 +68,24 @@ body {
     align-items: center;
 
     border-radius: 5px;
-    
+
     margin-bottom: 16px;
+    color: black;
+    font-size: .9rem;
+    font-family: 'Quicksand', sans-serif;
+
+    min-width: 54px;
+    min-height: 60px;
+}
+
+.dates-special span {
+    font-weight: bold;
 }
 
 /*-------------SECTION 2: SPECIAL-EVENTS---------------*/
 
 .special-events .headline-style-2 {
-    padding: 48px 0 24px 0;
-    padding-left: 10%;
+    padding: 48px 0 10px 0;
     margin: 0;
 }
 
@@ -88,7 +93,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     gap: 20px;
 }
 
@@ -117,7 +123,7 @@ body {
 
 .description {
     background-color: white;
-    padding: 32px 60px 48px;
+    padding: 32px 30px 48px;
     display: flex;
     flex-direction: column;
 }
@@ -131,6 +137,12 @@ body {
     height: 280px;
     object-fit: cover;
 }
+
+
+
+/*-------------SECTION 3: KIDS & FAMILIES---------------*/
+
+/*-------------SECTION 4: ADULTS---------------*/
 
 /*-------------SECTION 4: BROCHURE---------------*/
 
@@ -171,23 +183,21 @@ body {
     margin-bottom: 20px;
 }
 
-
-/*-------------------MEDIA QUERIES-------------------*/
-
-
-@media (min-width: 450px) {
-    section.aeronautics-section {
-        height: 80vh;
-    }
+.special-events .list-2 > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-@media (min-width: 570px) {
+
+/** Responsible **/
+
+@media (min-width: 425px) {
     section.aeronautics-section {
         background-image: url(/IMAGES/events/events-hero.png);
         height: 330px;
         background-repeat: no-repeat;
         background-position: top;
-        background-size: contain;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -229,14 +239,9 @@ body {
         display: none;
     }
 
-    .list-2 {
-        flex-direction: row;
-    }
-
     .special-event {
         background-color: white;
-        width: 552px;
-        height: 860px;
+        width: 100%;
         position: relative;
     }
 
@@ -260,27 +265,16 @@ body {
 
     .special-events .list-2   {
         justify-content: start;
-        padding-left: 10%;
-        padding-right: 10%;
+        align-items: center;
     }
 
     .events-section.slide .headline {
         padding-left: 0;
+        padding-top: 0;
     }
 
     .special-events {
-        padding-bottom: 200px;
-    }
-}
-
-@media (min-width: 800px) {
-    .special-event {
-        height: 580px;
-    }
-}
-@media (min-width: 788px) and (max-width: 866px) {
-    .special-events {
-        padding-bottom: 250px;
+        padding-bottom: 60px;
     }
 }
 
@@ -289,8 +283,33 @@ body {
         height: 630px;
     }
 
+    .special-events .list-2{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 0;
+        width: fit-content;
+        padding: 0 24px;
+    }
+
+    .special-events .list-2 > div{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
     .special-events {
         padding-bottom: 110px;
+    }
+
+    .special-events .special-event {
+        max-width: 552px;
+        height: auto;
+    }
+
+    .special-events .headline-style-2 {
+        padding-left: 0;
+        padding-bottom: 24px;
     }
 }
 
