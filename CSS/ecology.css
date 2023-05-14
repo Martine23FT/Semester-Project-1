@@ -97,9 +97,29 @@ article .headline-style-3 {
 
 .ecology-section {
     background-color: #7DB3C7;
-    height: 450px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 10%;
 }
 
+.ecology-text {
+    width: 60%;
+}
+
+.image-container img {
+    height: 380px;
+    width: 380px;
+}
+
+.image-container {
+    padding-right: 6%;
+}
+
+.bottom {
+    padding-bottom: 20px;
+}
 
 /*
 
