@@ -11,10 +11,16 @@ body {
     padding-bottom: 40px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 600px 600px 600px;
+    grid-auto-rows: auto;
 }
 
 /*------------SECTION 1-3: EXPLORE-SECTIONS-------------*/
+
+.col-1-1 img:not(.mobile), 
+.col-2-img img:not(.mobile),
+.col-1-3 img:not(.mobile) {
+    display: none;
+}
 
 .col-1-1 {
     order: 1;
@@ -58,6 +64,7 @@ body {
 .col-2-1,
 .col-2-2 {
     width: 70%;
+    padding-top: 20px;
 }
 
 #text {
@@ -67,6 +74,7 @@ body {
 
 .col-2-1 {
     padding: 0;
+    padding-top: 20px;
 }
 
 .col-2-1 .headline-style-3,
@@ -76,11 +84,46 @@ body {
     padding-bottom: 2%;
 }
 
+/*
+.section-explore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45vh;
+}
+
+.image-container {
+    display: flex;
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container {
+    width: 45%;
+    padding-right: 10%;
+}
+
+.text-container .headline-style-3,
+.text-container-2 .headline-style-3 {
+    text-align: left;
+}
+
+.text-container span {
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.text-container-2 {
+    width: 45%;
+    padding-left: 10%;
+}
+
 /*------------CONTACT-------------*/
-
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-
+@media only screen and (min-width: 0px) and (max-width: 768px) {
     .explore-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -88,11 +131,39 @@ body {
 
     .section-explore {
         display: block;
-    }    
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1028px) {
+    .col-2-1,
+    .col-2-2 {
+        width: 90%;
+    }
+
+    .col-1-1, 
+    .col-2-img,
+    .col-1-3 {
+        display: grid;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .col-1-1 img:not(.mobile), 
+    .col-2-img img:not(.mobile),
+    .col-1-3 img:not(.mobile) {
+        display: block;
+    }
+
+    .col-1-1 .mobile, 
+    .col-2-img .mobile,
+    .col-1-3 .mobile {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-    .col-1-1 {
+    col-1-1 {
         order: 1;
     }
     
@@ -122,10 +193,17 @@ body {
         padding: 15% 0% 0% 10%;
         margin: 0;
     }
+}
 
+@media only screen and (min-width: 1028px) {
     .col-2-1,
     .col-2-2 {
         width: 70%;
     }
+
+    .explore-wrapper {
+        grid-template-rows: 600px 600px 600px;
+    }
 }
+
 

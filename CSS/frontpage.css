@@ -399,7 +399,6 @@
 
     .events-section {
         width: 100%;
-        overflow: scroll;
         scroll-behavior: smooth;
         padding: 15% 0% 10% 10%;
     }
@@ -578,6 +577,3 @@
         text-align: center;
     }
 }
-
-
-
