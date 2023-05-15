@@ -164,7 +164,8 @@ body {
 }
 
 .brochure-section .headline-style-2 {
-    text-align: center;
+    text-align: start;
+    width: 100%;
 }
 
 .brochures {
@@ -256,6 +257,7 @@ body {
     }
 
     .brochure-section .headline-style-2 {
+        width: 100%;
         text-align: start;
     }
 

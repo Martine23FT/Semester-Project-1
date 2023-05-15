@@ -143,6 +143,21 @@ header {
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+
+    #header-nav {
+        width: 50%;
+        top: 150px;
+        right: 0;
+        padding: 2% 0%;
+    }
+
+    .nav-link {
+        padding: 8% 0%;
+    }
+}
+
+
 /*----------------BUTTON----------------*/
 
 .primary-btn {

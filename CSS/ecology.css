@@ -6,6 +6,9 @@
 
 article {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -22,9 +25,9 @@ article .headline-style-3 {
 
 #flip {
     height: 130px;
-    width: 150px;
+    width: 100%;
     object-fit: contain;
-    margin: 18% 6% 2% 10%;
+    margin: 2% 105% -1% 9%;
 }
 
 /*----------------SECTION 3: FLIP-CARDS----------------*/
@@ -121,5 +124,126 @@ article .headline-style-3 {
     padding-bottom: 20px;
 }
 
-/*
+.flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .hero-section img {
+        height: 350px;
+    }
+
+    #flip {
+        margin: 5% 60% -5% 5%;
+        z-index: 999;
+    }
+
+    .flip-card {
+        height: 350px;
+    }
+
+    .flip-card:nth-child(1){
+        margin-bottom: -50px;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    article h1.headline-style-3 {
+        font-size: 25px;
+        padding: 0 16px;
+    }
+
+    article p {
+        padding: 0 16px;
+    }
+
+    article .text {
+        width: 100%;
+    }
+
+    .ecology-section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .ecology-section img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+
+    .flip-card-back {
+        padding-bottom: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-container {
+        margin: 40px 0;
+    }
+
+    .ecology-section {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .ecology-section .image-container {
+        padding: 0;
+    }
+
+    .ecology-text {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .ecology-section {
+        padding: 40px 0;
+        height: auto;
+    }
+
+    .ecology-section img {
+        max-width: 260px;
+        max-height: 260px;
+    }
+
+    article .text {
+        width: 70%;
+    }
+
+    article .text .headline-style-3 {
+        padding: 0;
+    }
+
+    .cards #flip {
+        width: 100%;
+        margin: 2% 90% 0 10%;
+    }
+
+    .flip-card {
+        width: 45%;
+    }
+
+    .flip-card-front img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .flip-card {
+        width: 30%;
+    }
+
+    article {
+        margin-bottom: -100px;
+    }
+}
 
