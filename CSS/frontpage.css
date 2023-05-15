@@ -100,7 +100,7 @@
     height: 176px; 
 }
 
-#circle-container {
+.circle-container {
     width: 50%;
     display: flex;
     gap: 80px;
