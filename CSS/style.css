@@ -97,67 +97,6 @@ header {
   display: none;
 }
 
-/*----------------HEADER: MEDIA QUIERIES----------------*/
-
-@media only screen and (min-width: 0px) and (max-width: 1180px) {
-    .hamburger-icon {
-        display: block;
-        color: white;
-        padding-right: 10%;
-    }
-
-    #menu-checkbox:checked ~ #header-nav {
-        display: block;
-        z-index: 999;
-    }
-
-    #header-nav {
-        display: none;
-        top: 120px;
-        width: 100%;
-        text-align: center;
-        background-color: #16243E;
-    }
-
-    header {
-        position: relative;
-    }
-
-    #header-nav {
-        position: absolute;
-    }
-
-    .nav-link {
-        display: block;
-        padding: 8%;
-        margin: 0;
-    }
-
-    #logo-container p {
-        font-size: 1.3rem;
-        line-height: 1.2;
-    }
-
-    #logo-container span {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1180px) {
-
-    #header-nav {
-        width: 50%;
-        top: 150px;
-        right: 0;
-        padding: 2% 0%;
-    }
-
-    .nav-link {
-        padding: 8% 0%;
-    }
-}
-
-
 /*----------------BUTTON----------------*/
 
 .primary-btn {
@@ -231,38 +170,7 @@ header {
     margin: 0;
     color: #16243E;
     font-weight: 700;
-}
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-
-    .headline-style-3 {
-        font-size: 1.7rem;
-        text-align: center;
-    }
-
-    .headline-style-1 {
-        font-size: 1.8rem;
-    }
-
-    .headline-style-1 span {
-        font-size: 1.5rem;
-    }
-
-    .headline-style-2 {
-        font-size: 1.3rem;
-        margin: 0;
-    }
-
-    p {
-        font-size: .9rem;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1180px) {
-
-    .headline-style-1 {
-        font-size: 2.2rem;
-    }
+    font-size: 1.1rem;
 }
 
 /*----------------FOOTER----------------*/
@@ -313,47 +221,7 @@ footer i:hover {
     transform: scale(1.1);
 }
 
-/*----------------MEDIA QUIRERIES: MOBILE----------------*/
-
-@media only screen and (min-width: 0px) and (max-width: 1180px) {
-    #footer-wrapper {
-        flex-direction: column;
-        gap: 20px;
-        padding: 6% 0%;
-    }
-
-    footer i {
-        padding: 4% 4% 0% 0%;
-    }
-
-    #col-1 {
-        order: 4;
-    }
-
-    #col-2 {
-        order: 1;
-    }
-
-    #col-3 {
-        order: 2;
-    }
-
-    #col-4 {
-        order: 3;
-    }
-
-    .col img {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-    footer p {
-        font-size: .8rem;
-    }
-}
-
-/*------------SECTION 4: CONTACT US-------------*/
+/*------------CONTACT FORMS-------------*/
 
 .contact-section {
     background-color: #4695B2;
@@ -397,7 +265,132 @@ textarea {
     padding-top: 4%; 
 }
 
+/*--------------MEDIA QUERIES-----------------*/ 
+
+@media only screen and (min-width: 0px) and (max-width: 1180px) {
+    .hamburger-icon {
+        display: block;
+        color: white;
+        padding-right: 10%;
+    }
+
+    #menu-checkbox:checked ~ #header-nav {
+        display: block;
+        z-index: 999;
+    }
+
+    #header-nav {
+        display: none;
+        top: 120px;
+        width: 100%;
+        text-align: center;
+        background-color: #16243E;
+    }
+
+    header {
+        position: relative;
+    }
+
+    #header-nav {
+        position: absolute;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 8%;
+        margin: 0;
+    }
+
+    #logo-container p {
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+
+    #logo-container span {
+        font-size: 1rem;
+    }
+
+    #footer-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        padding: 6% 0%;
+    }
+
+    footer i {
+        padding: 4% 4% 0% 0%;
+    }
+
+    #col-1 {
+        order: 4;
+    }
+
+    #col-2 {
+        order: 1;
+    }
+
+    #col-3 {
+        order: 2;
+    }
+
+    #col-4 {
+        order: 3;
+    }
+
+    .col img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+
+    #header-nav {
+        width: 50%;
+        top: 150px;
+        right: 0;
+        padding: 2% 0%;
+    }
+
+    .nav-link {
+        padding: 8% 0%;
+    }
+
+    .headline-style-1 {
+        font-size: 2.2rem;
+    }
+
+    .contact-forms {
+        width: 50%;
+    }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .headline-style-3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .headline-style-1 {
+        font-size: 1.8rem;
+    }
+
+    .headline-style-1 span {
+        font-size: 1.5rem;
+    }
+
+    .headline-style-2 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    p {
+        font-size: .9rem;
+    }
+
+    footer p {
+        font-size: .8rem;
+    }
+
     .contact-forms {
         width: 80%;
     }
@@ -410,12 +403,6 @@ textarea {
 
     .view-all {
         font-size: .9rem;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1180px) {
-    .contact-forms {
-        width: 50%;
     }
 }
 
