@@ -224,7 +224,7 @@ header {
 
 .headline-style-1 span,
 .headline-style-3 span {
-    color: #FBA729;
+    color: #ff8c1a;
 }
 
 .subtitle {
@@ -292,7 +292,7 @@ footer {
 }
 
 .footer-heading:hover {
-    color: #FBA729;
+    color: #ff8c1a;
     cursor: pointer;
 }
 
@@ -309,7 +309,7 @@ footer i {
 }
 
 footer i:hover {
-    color: #FBA729;
+    color: #ff8c1a;
     transform: scale(1.1);
 }
 
