@@ -115,15 +115,15 @@ body {
     margin-left: 25px;
 }
 
-    .get-involved summary {
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-    }
+.get-involved summary {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
 
-    .get-involved[open] summary {
-        transform: scale(1.05);
-        font-weight: bold;
-    }
+.get-involved[open] summary {
+    transform: scale(1.05);
+    font-weight: bold;
+}
 
 #google-map {
     width: 420px;
@@ -131,7 +131,7 @@ body {
     border: none;
 }
 
-/*----------------MEDIA QUIERIES: MOBILE----------------*/
+/*----------------MEDIA QUIERIES----------------*/
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     
