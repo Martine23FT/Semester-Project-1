@@ -62,13 +62,10 @@ body {
     background-color: #CCCDCF;
     padding: 12px 6px;
     width: fit-content;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     border-radius: 5px;
-
     margin-bottom: 16px;
     color: black;
     font-size: .9rem;
@@ -138,12 +135,6 @@ body {
     object-fit: cover;
 }
 
-
-
-/*-------------SECTION 3: KIDS & FAMILIES---------------*/
-
-/*-------------SECTION 4: ADULTS---------------*/
-
 /*-------------SECTION 4: BROCHURE---------------*/
 
 .brochure-section {
@@ -190,8 +181,7 @@ body {
     gap: 20px;
 }
 
-
-/** Responsible **/
+/*--------------MEDIA QUERIES--------------*/
 
 @media (min-width: 425px) {
     section.aeronautics-section {
