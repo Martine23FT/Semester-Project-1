@@ -104,7 +104,7 @@ article .headline-style-3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0% 10%;
+    padding: 10%;
 }
 
 .ecology-text {
@@ -131,6 +131,11 @@ article .headline-style-3 {
     border-radius: 6px;
 }
 
+.events-section.slide {
+    padding-top: 0%;
+    padding-bottom: 6%;
+}
+
 @media (min-width: 0px) and (max-width: 768px) {
     .hero-section img {
         height: 350px;
@@ -139,6 +144,8 @@ article .headline-style-3 {
     #flip {
         margin: 5% 60% -5% 5%;
         z-index: 999;
+        width: 120px;
+        height: 90px;
     }
 
     .flip-card {
@@ -147,6 +154,10 @@ article .headline-style-3 {
 
     .flip-card:nth-child(1){
         margin-bottom: -50px;
+    }
+
+    .cards {
+        padding-bottom: 20%;
     }
 
     article {
@@ -202,17 +213,24 @@ article .headline-style-3 {
     .ecology-text {
         width: 100%;
     }
+
+    .events-section.slide {
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
     .ecology-section {
-        padding: 40px 0;
+        padding: 60px 0;
         height: auto;
+        flex-direction: column;
+        text-align: center;
     }
 
     .ecology-section img {
-        max-width: 260px;
-        max-height: 260px;
+        max-width: 300px;
+        max-height: 300px;
     }
 
     article .text {
@@ -225,7 +243,7 @@ article .headline-style-3 {
 
     .cards #flip {
         width: 100%;
-        margin: 2% 90% 0 10%;
+        margin: 2% 90% 0 40%;
     }
 
     .flip-card {
@@ -234,6 +252,12 @@ article .headline-style-3 {
 
     .flip-card-front img {
         width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 90%;
     }
 }
 
