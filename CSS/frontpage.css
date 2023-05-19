@@ -23,19 +23,6 @@
 
 /*----------------SECTION 2: LETS EXPLORE----------------*/
 
-.explore-section,
-.list-3,
-.icon-section,
-.circles,
-.circle,
-.container-1,
-.get-involved-section,
-.explore-section-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .explore-section {
     flex-direction: column;
     padding: 0% 10% 4% 10%;

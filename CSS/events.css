@@ -85,9 +85,7 @@ body {
 }
 
 .list-2 {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 90%;
     margin: 0 auto;
     gap: 20px;
@@ -134,13 +132,6 @@ body {
 }
 
 /*-------------SECTION 4: BROCHURE---------------*/
-
-.brochure-section,
-.brochure-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .brochure-section {
     background-color: #FDFAF5;

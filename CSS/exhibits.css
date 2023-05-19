@@ -5,9 +5,6 @@ body {
 /*---------HEADLINE: TYPEWRITER EFFECT----------*/
 
 .text-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 90px;
     padding: 6% 0% 4%;
 }

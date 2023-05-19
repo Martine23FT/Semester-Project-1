@@ -14,10 +14,7 @@ body {
 .visit-section {
     width: 80%;
     margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .upper-part {
@@ -80,9 +77,6 @@ body {
 /*-------------GET INVOLVED-----------------*/ 
 
 .details-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 7%;
 }
 

@@ -6,13 +6,10 @@
 
 article,
 .text {
-    display: flex;
     flex-direction: column;
 }
 
 article {
-    align-items: center;
-    justify-content: center;
     width: 100%;
 }
 
@@ -35,14 +32,11 @@ article .headline-style-3 {
 /*----------------SECTION 3: FLIP-CARDS----------------*/
 
 .cards {
-    display: flex;
     gap: 40px;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 7%;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 .flip-card {
@@ -103,9 +97,6 @@ article .headline-style-3 {
 .ecology-section {
     background-color: #7DB3C7;
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10%;
 }
 
