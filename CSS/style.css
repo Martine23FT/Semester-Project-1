@@ -17,11 +17,11 @@ body {
     color: #16243E;
     background-color: #DBF1F9;
     margin: 0 auto;
-    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-family: 'Oxygen', sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Oxygen', Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 
@@ -60,7 +60,7 @@ header {
 #logo-container p {
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     line-height: 1.0;
@@ -111,7 +111,7 @@ header {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-top: 40px;
     border: none;
-    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
 
 .primary-btn:hover {
@@ -177,7 +177,7 @@ header {
     background-color: #4695B2;
     flex-direction: column;
     padding: 30px 0% 3%; 
-    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
 
 .contact-section .headline-style-2 {
@@ -190,7 +190,7 @@ header {
 
 input,
 textarea {
-    font-family: 'Oxygen', sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Oxygen', Arial, Helvetica, sans-serif;
     margin: 5px 0px; 
     width: 100%;
     padding-left: 10px; 
@@ -329,6 +329,7 @@ footer {
     text-decoration: none;
     color: white;
     margin: 0;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
 
 .footer-heading:hover {

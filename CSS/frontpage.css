@@ -169,6 +169,13 @@
     height: 140px; 
 }
 
+.explore-section-2 .primary-btn {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
 /*----------------MEDIA QUIERIES----------------*/
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
