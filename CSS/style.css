@@ -17,19 +17,12 @@ body {
     color: #16243E;
     background-color: #DBF1F9;
     margin: 0 auto;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen', sans-serif, Arial, Helvetica, sans-serif;
     line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-.subtitle {
-    font-family: 'Quicksand', sans-serif, serif;
 }
 
 /*----------------HEADER----------------*/
@@ -61,7 +54,7 @@ header {
 #logo-container p {
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     line-height: 1.0;
@@ -80,7 +73,6 @@ header {
 
 .nav-link {
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
     color: white;
     font-size: 1.1rem;
     margin-top: 28px;
@@ -108,12 +100,12 @@ header {
     background-size: 200%;
     border-radius: 50px;
     font-size: .9rem;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     transition: .3s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-top: 40px;
     border: none;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 .primary-btn:hover {
@@ -124,7 +116,6 @@ header {
 .view-all {
     text-decoration: 4px underline #FBA729;
     color: #19191E;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
 }
@@ -174,54 +165,6 @@ header {
     font-size: 1.1rem;
 }
 
-/*----------------FOOTER----------------*/
-
-footer {
-    background-color: #16243E;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3% 0%;
-}
-
-#footer-wrapper {
-    width: 80%;
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-}
-
-.footer-heading {
-    font-weight: 700;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    color: white;
-    margin: 0;
-}
-
-.footer-heading:hover {
-    color: #ff8c1a;
-    cursor: pointer;
-}
-
-footer p {
-    line-height: 1.0;
-}
-
-footer i {
-    padding: 1em;
-    padding-left: 0;
-    font-size: 1.6rem;
-    text-decoration: none;
-    color: white;
-}
-
-footer i:hover {
-    color: #ff8c1a;
-    transform: scale(1.1);
-}
-
 /*------------CONTACT FORMS-------------*/
 
 .contact-section {
@@ -231,7 +174,7 @@ footer i:hover {
     align-items: center;
     flex-direction: column;
     padding: 30px 0% 3%; 
-    font-family: 'Quicksand', sans-serif, serif;
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 .contact-section .headline-style-2 {
@@ -247,7 +190,7 @@ footer i:hover {
 
 input,
 textarea {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen', sans-serif, Arial, Helvetica, sans-serif;
     margin: 5px 0px; 
     width: 100%;
     padding-left: 10px; 
@@ -349,7 +292,6 @@ textarea {
 
 .event-title {
     font-weight: 600;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .dates {
@@ -360,7 +302,6 @@ textarea {
     height: 20%;
     text-align: center;
     font-size: .9rem;
-    font-family: 'Quicksand', sans-serif;
     top: 6%;
     left: 6%;
     opacity: 80%;
@@ -375,6 +316,53 @@ textarea {
 .dates span {
     font-weight: 700;
     font-size: .9
+}
+
+/*----------------FOOTER----------------*/
+
+footer {
+    background-color: #16243E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0%;
+}
+
+#footer-wrapper {
+    width: 80%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+
+.footer-heading:hover {
+    color: #ff8c1a;
+    cursor: pointer;
+}
+
+footer p {
+    line-height: 1.0;
+}
+
+footer i {
+    padding: 1em;
+    padding-left: 0;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer i:hover {
+    color: #ff8c1a;
+    transform: scale(1.1);
 }
 
 /*--------------MEDIA QUERIES-----------------*/ 

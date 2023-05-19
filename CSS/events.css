@@ -69,8 +69,6 @@ body {
     margin-bottom: 16px;
     color: black;
     font-size: .9rem;
-    font-family: 'Quicksand', sans-serif;
-
     min-width: 54px;
     min-height: 60px;
 }
@@ -137,20 +135,22 @@ body {
 
 /*-------------SECTION 4: BROCHURE---------------*/
 
-.brochure-section {
-    background-color: #FDFAF5;
+.brochure-section,
+.brochure-text {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.brochure-section .brochure-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.brochure-section {
+    background-color: #FDFAF5;
 }
 
-.brochure-section .brochure-text button {
+.brochure-text {
+    flex-direction: column;
+}
+
+.brochure-text button {
     max-width: 200px;
 }
 
@@ -159,9 +159,13 @@ body {
     width: 100%;
 }
 
-.brochures {
+.brochures,
+.special-events .list-2 > div {
     display: flex;
     flex-direction: column;
+}
+
+.brochures {
     width: 60%;
     padding: 50px 0px;
 }
@@ -176,8 +180,6 @@ body {
 }
 
 .special-events .list-2 > div{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 
@@ -206,16 +208,13 @@ body {
     }
 
     .aeronautics-section p,
-    .aeronautics-section h1 {
+    .aeronautics-section h1,
+    .aeronautics-section .headline-style-1 span {
         display: block;
     }
 
     .aeronautics-section div {
         display: flex;
-    }
-
-    .aeronautics-section .headline-style-1 span {
-        display: block;
     }
 
     .aeronautics-section .headline-style-1 {

@@ -16,14 +16,13 @@ body {
     font-size: 2rem;
     font-weight: 500;
     color: #16243E;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .text-wrapper .dynamic-txt {
     height: 90px;
     line-height: 90px;
     overflow: hidden;
-    font-family: 'Caveat', sans-serif;
+    font-family: 'Caveat', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 .dynamic-txt {
@@ -182,7 +181,6 @@ body {
 }
 
 .card-title {
-    font-family: 'Quicksand', sans-serif;
     margin: 0;
 }
 
@@ -191,7 +189,6 @@ body {
     padding: 10px 20px;
     border-radius: 50px;
     font-size: .9rem;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     transition: .3s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);

@@ -69,7 +69,6 @@ body {
 }
 
 .visit-text span {
-    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
 }
 
@@ -106,7 +105,6 @@ body {
 .get-involved {
     background-color: #7DB3C7;
     border-radius: 6px;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     text-align: center;
     cursor: pointer;

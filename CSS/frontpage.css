@@ -23,11 +23,21 @@
 
 /*----------------SECTION 2: LETS EXPLORE----------------*/
 
-.explore-section {
+.explore-section,
+.list-3,
+.icon-section,
+.circles,
+.circle,
+.container-1,
+.get-involved-section,
+.explore-section-2 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.explore-section {
+    flex-direction: column;
     padding: 0% 10% 4% 10%;
 }
 
@@ -38,10 +48,7 @@
 }
 
 .list-3 {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 40px;
     overflow: auto;
 }
@@ -86,14 +93,6 @@
 }
 
 /*----------------SECTION 3: ICON-SECTION----------------*/
-
-.icon-section,
-.circles,
-.circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .icon-section {
     background-color: #7DB3C7;
@@ -145,10 +144,7 @@
 
 .container-1 {
     width: 60%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .container-2 {
@@ -166,9 +162,6 @@
 .get-involved-section {
     background-color: #FDFAF5;
     padding: 4% 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
 }
@@ -181,10 +174,7 @@
 
 .explore-section-2 {
     width: 80%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     padding-bottom: 50px; 
 }
