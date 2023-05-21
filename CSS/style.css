@@ -405,6 +405,10 @@ footer i:hover {
         padding: 6% 0%;
     }
 
+    .footer-heading {
+        font-size: .8rem;
+    }
+
     footer i {
         padding: 4% 4% 0% 0%;
     }
@@ -508,13 +512,8 @@ footer i:hover {
     }
 
     .events-section.slide {
-        padding-top: 60px;
+        padding-top: 5% 0% 0% 5%;
         padding-left: 5%;
-    }
-
-    .events-section.slide + .events-section.slide {
-        padding-bottom: 60px;
-        padding-top: 24px;
     }
 
     .events-section .view-all {
@@ -522,11 +521,23 @@ footer i:hover {
     }
 
     .events-section .headline {
-        padding: 16px 0 0 0;
+        padding: 5% 0% 0% 10%;
     }
 
     .events-container {
         gap: 15px;
+    }
+
+    .subtitle {
+        font-size: .9rem;
+    }
+
+    .contact-section {
+        padding-bottom: 40px;
+    }
+
+    .contact-section .primary-btn {
+        margin-top: 15px;
     }
 }
 
