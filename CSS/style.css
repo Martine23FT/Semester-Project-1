@@ -432,6 +432,14 @@ footer i:hover {
     .col img {
         display: none;
     }
+
+    .contact-section {
+        padding-bottom: 5%;
+    }
+
+    .contact-section .primary-btn {
+        margin-top: 2%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
@@ -530,14 +538,6 @@ footer i:hover {
 
     .subtitle {
         font-size: .9rem;
-    }
-
-    .contact-section {
-        padding-bottom: 40px;
-    }
-
-    .contact-section .primary-btn {
-        margin-top: 15px;
     }
 }
 
