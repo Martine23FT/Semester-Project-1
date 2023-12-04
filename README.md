@@ -24,7 +24,7 @@ The task said to make an informative and appealing website to attract middle sch
 ### Installing
 1. Clone the repo:
 ```bash   
-git clone git@github.com:MartineMidttveit/Rainydays.git
+git clone git@github.com:MartineMidttveit/Semester-Project-1.git
 ```
 2. Install the dependencies:
 ```
